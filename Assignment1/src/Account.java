@@ -1,6 +1,7 @@
 // Start of user code for imports
 // End of user code
 
+import jdk.nashorn.internal.runtime.logging.Logger;
 import org.aspectj.lang.annotation.Aspect;
 
 /**
@@ -12,17 +13,20 @@ public class Account {
     protected int balanceInCents;
     protected int accountNumber;
     protected Customer owner;
-    
+
+    @Log
     public Account(int initialBalance, Customer owner) {
         this.balanceInCents = initialBalance;
         this.owner = owner;
         this.accountNumber = (int) (Math.random() * 1000000);
     }
 
+    @Log
     public void deposit(int amount) {
         this.balanceInCents = balanceInCents + amount;
     }
 
+    @Log
     public void withdraw(int amount) {
         if (balanceInCents >= amount) {
             this.balanceInCents = balanceInCents - amount;
