@@ -1,7 +1,6 @@
 // Start of user code for imports
 // End of user code
 
-import jdk.nashorn.internal.runtime.logging.Logger;
 import org.aspectj.lang.annotation.Aspect;
 
 /**
