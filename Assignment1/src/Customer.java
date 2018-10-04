@@ -11,8 +11,8 @@ public class Customer {
     
     public Customer(String givenName) {
         this.name = givenName;
-        String stringToLog = "Created object " + this;
-        Logger.log(stringToLog);
+//        String stringToLog = "Created object " + this;
+//        Logger.log(stringToLog);
     }
 
     public String getName() {
