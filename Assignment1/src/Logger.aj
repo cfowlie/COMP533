@@ -26,7 +26,12 @@ public aspect Logger {
     // Log method calls for objects
     pointcut LogMethod(Object object): execution(* *(..)) && @annotation(Log) && target(object);
     after(Object object) : LogMethod(object) {
-        System.out.println("Method called " + thisJoinPointStaticPart.getSignature() + " on Object " + object);
+        Object[] args = thisJoinPoint.getArgs();
+        String argsString = "";
+        for (Object arg : args) {
+            argsString += arg.toString() + " ";
+        }
+        System.out.println("Method called: " + thisJoinPointStaticPart.getSignature() + " on Object: " + object + " with Args: " + argsString);
     }
 
 }
