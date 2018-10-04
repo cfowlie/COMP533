@@ -9,15 +9,15 @@ public class Main {
 
 class Resource {
 
-    String name;
+    private String name;
 
     @Log
-    Resource(String name){
+    public Resource(String name){
         this.name = name;
     }
 
     @Log
-    void Operation() {
+    public void Operation() {
         // Do something
     }
 
