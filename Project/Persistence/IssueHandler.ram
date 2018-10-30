@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_PRxLENxXEeiuwMvwYzZkEA" name="Errors">
+  <realizes href="Persistence.core#_AFpwwNxYEeiL2KNAFr2t2Q"/>
+  <coreConcern href="Persistence.core#_1ZdQoNxTEeiuwMvwYzZkEA"/>
+  <structuralView xmi:id="_PRxLEdxXEeiuwMvwYzZkEA">
+    <classes xsi:type="ram:Class" xmi:id="_PRxLEtxXEeiuwMvwYzZkEA" name="Error">
+      <attributes xmi:id="_PRxLE9xXEeiuwMvwYzZkEA" name="description" type="_PRxLHdxXEeiuwMvwYzZkEA"/>
+      <attributes xmi:id="_PRxLFNxXEeiuwMvwYzZkEA" name="trace" type="_PRxLHdxXEeiuwMvwYzZkEA"/>
+      <attributes xmi:id="_PRxLFdxXEeiuwMvwYzZkEA" name="type" type="_PRxLItxXEeiuwMvwYzZkEA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_PRxLFtxXEeiuwMvwYzZkEA" name="Warning">
+      <attributes xmi:id="_PRxLF9xXEeiuwMvwYzZkEA" name="description" type="_PRxLHdxXEeiuwMvwYzZkEA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_PRxLGNxXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RAny" xmi:id="_PRxLGdxXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_PRxLGtxXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RInt" xmi:id="_PRxLG9xXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RChar" xmi:id="_PRxLHNxXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RString" xmi:id="_PRxLHdxXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_PRxLHtxXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_PRxLH9xXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RLong" xmi:id="_PRxLINxXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RByte" xmi:id="_PRxLIdxXEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:REnum" xmi:id="_PRxLItxXEeiuwMvwYzZkEA" name="ErrorType">
+      <literals xmi:id="_PRxLI9xXEeiuwMvwYzZkEA" name="FailedToSave"/>
+      <literals xmi:id="_PRxLJNxXEeiuwMvwYzZkEA" name="ConnectionError"/>
+      <literals xmi:id="_PRxLJdxXEeiuwMvwYzZkEA" name="NotAuthorized"/>
+    </types>
+  </structuralView>
+  <layout xmi:id="_PRxLJtxXEeiuwMvwYzZkEA">
+    <containers xmi:id="_PRxLJ9xXEeiuwMvwYzZkEA" key="_PRxLEdxXEeiuwMvwYzZkEA">
+      <value xmi:id="_PRxLKNxXEeiuwMvwYzZkEA" key="_PRxLEtxXEeiuwMvwYzZkEA">
+        <value xmi:id="_PRxLKdxXEeiuwMvwYzZkEA" x="705.0001" y="391.99994"/>
+      </value>
+      <value xmi:id="_PRxLKtxXEeiuwMvwYzZkEA" key="_PRxLItxXEeiuwMvwYzZkEA">
+        <value xmi:id="_PRxLK9xXEeiuwMvwYzZkEA" x="1457.0" y="401.49994"/>
+      </value>
+      <value xmi:id="_PRxLLNxXEeiuwMvwYzZkEA" key="_PRxLFtxXEeiuwMvwYzZkEA">
+        <value xmi:id="_PRxLLdxXEeiuwMvwYzZkEA" x="1094.0004" y="417.99994"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
