@@ -1,6 +1,7 @@
 #COMP 533 Project Part 1
 ###Connor Fowlie : 260687955
 ###Mostafa Saadat : 260678640
+###Howie Zhao : 260631984
 
 #The Concern
 The concern we have choses is persistence. This allows for accurate and effective saving of data within an application with little management by the end user.

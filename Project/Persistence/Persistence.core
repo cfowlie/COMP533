@@ -4,6 +4,8 @@
   <models xsi:type="ram:Aspect" href="Persistence.ram#__fHckNxUEeiuwMvwYzZkEA"/>
   <models xsi:type="ram:Aspect" href="Configuration.ram#_UWYJ4NxWEeiuwMvwYzZkEA"/>
   <models xsi:type="ram:Aspect" href="IssueHandler.ram#_PRxLENxXEeiuwMvwYzZkEA"/>
+  <models xsi:type="ram:Aspect" href="Callbacks.ram#_6A3vEN2wEeiQX6G8Rl60MQ"/>
+  <models xsi:type="ram:Aspect" href="Migrations.ram#_AtL2EN2xEeiQX6G8Rl60MQ"/>
   <featureModel xmi:id="_1Zd3sNxTEeiuwMvwYzZkEA" coreConcern="_1ZdQoNxTEeiuwMvwYzZkEA" root="_1Zd3sdxTEeiuwMvwYzZkEA">
     <features xmi:id="_1Zd3sdxTEeiuwMvwYzZkEA" name="Persistence" children="_36m-wNxTEeiuwMvwYzZkEA _Eqd8kNxUEeiuwMvwYzZkEA _HIXiYNxUEeiuwMvwYzZkEA _AFpwwNxYEeiL2KNAFr2t2Q">
       <realizedBy xsi:type="ram:Aspect" href="Persistence.ram#__fHckNxUEeiuwMvwYzZkEA"/>
@@ -21,8 +23,12 @@
       <realizedBy xsi:type="ram:Aspect" href="Persistence.ram#__fHckNxUEeiuwMvwYzZkEA"/>
       <realizedBy xsi:type="ram:Aspect" href="Configuration.ram#_UWYJ4NxWEeiuwMvwYzZkEA"/>
     </features>
-    <features xmi:id="_Eqd8kNxUEeiuwMvwYzZkEA" name="Callback" parent="_1Zd3sdxTEeiuwMvwYzZkEA" parentRelationship="Optional"/>
-    <features xmi:id="_HIXiYNxUEeiuwMvwYzZkEA" name="Migration" parent="_1Zd3sdxTEeiuwMvwYzZkEA" parentRelationship="Optional"/>
+    <features xmi:id="_Eqd8kNxUEeiuwMvwYzZkEA" name="Callback" parent="_1Zd3sdxTEeiuwMvwYzZkEA" parentRelationship="Optional">
+      <realizedBy xsi:type="ram:Aspect" href="Callbacks.ram#_6A3vEN2wEeiQX6G8Rl60MQ"/>
+    </features>
+    <features xmi:id="_HIXiYNxUEeiuwMvwYzZkEA" name="Migration" parent="_1Zd3sdxTEeiuwMvwYzZkEA" parentRelationship="Optional">
+      <realizedBy xsi:type="ram:Aspect" href="Migrations.ram#_AtL2EN2xEeiQX6G8Rl60MQ"/>
+    </features>
     <features xmi:id="_MqMMMNxUEeiuwMvwYzZkEA" name="SQLite" parent="_36m-wNxTEeiuwMvwYzZkEA" parentRelationship="XOR"/>
     <features xmi:id="_WmF0oNxUEeiuwMvwYzZkEA" name="XML" parent="_36m-wNxTEeiuwMvwYzZkEA" parentRelationship="XOR"/>
     <features xmi:id="_AFpwwNxYEeiL2KNAFr2t2Q" name="Issue" parent="_1Zd3sdxTEeiuwMvwYzZkEA" parentRelationship="Mandatory">
