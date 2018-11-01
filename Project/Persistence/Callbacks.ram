@@ -13,8 +13,21 @@
     <types xsi:type="ram:RFloat" xmi:id="_6A3vGd2wEeiQX6G8Rl60MQ"/>
     <types xsi:type="ram:RLong" xmi:id="_6A3vGt2wEeiQX6G8Rl60MQ"/>
     <types xsi:type="ram:RByte" xmi:id="_6A3vG92wEeiQX6G8Rl60MQ"/>
+    <types xsi:type="ram:REnum" xmi:id="_fmUfEN4BEeiZZ8ibbSFdKg" name="CallbackAnnotation">
+      <literals xmi:id="_jQJFcN4BEeiZZ8ibbSFdKg" name="PrePersist"/>
+      <literals xmi:id="_kK-WAN4BEeiZZ8ibbSFdKg" name="PostPersist"/>
+      <literals xmi:id="_mV25MN4BEeiZZ8ibbSFdKg" name="OnPreUpdate"/>
+      <literals xmi:id="_nXDQcN4BEeiZZ8ibbSFdKg" name="OnPostUpdate"/>
+      <literals xmi:id="_p8qAwN4BEeiZZ8ibbSFdKg" name="OnPreRemove"/>
+      <literals xmi:id="_qo2_cN4BEeiZZ8ibbSFdKg" name="OnPostRemove"/>
+      <literals xmi:id="_v7ogoN4BEeiZZ8ibbSFdKg" name="PostLoad"/>
+    </types>
   </structuralView>
   <layout xmi:id="_6A3vHd2wEeiQX6G8Rl60MQ">
-    <containers xmi:id="_6A3vHt2wEeiQX6G8Rl60MQ" key="_6A3vEd2wEeiQX6G8Rl60MQ"/>
+    <containers xmi:id="_6A3vHt2wEeiQX6G8Rl60MQ" key="_6A3vEd2wEeiQX6G8Rl60MQ">
+      <value xmi:id="_fmVtMN4BEeiZZ8ibbSFdKg" key="_fmUfEN4BEeiZZ8ibbSFdKg">
+        <value xmi:id="_fmVtMd4BEeiZZ8ibbSFdKg" x="514.9998" y="180.00003"/>
+      </value>
+    </containers>
   </layout>
 </ram:Aspect>
