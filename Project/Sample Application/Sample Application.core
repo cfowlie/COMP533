@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_chF3kOHzEeiM0K7olOKsyQ" name="Sample Application">
+  <models xsi:type="core:COREFeatureModel" href="#_chHFsOHzEeiM0K7olOKsyQ"/>
+  <models xsi:type="ram:Aspect" href="PersonDemo.ram#_0u9FkOH6EeiBVMGt1MSZsg"/>
+  <featureModel xmi:id="_chHFsOHzEeiM0K7olOKsyQ" coreConcern="_chF3kOHzEeiM0K7olOKsyQ" root="_chHFseHzEeiM0K7olOKsyQ">
+    <features xmi:id="_chHFseHzEeiM0K7olOKsyQ" name="Sample Application">
+      <realizedBy xsi:type="ram:Aspect" href="PersonDemo.ram#_0u9FkOH6EeiBVMGt1MSZsg"/>
+      <reuses xmi:id="_ww_bMOH6EeiBVMGt1MSZsg" name="Persistence" selectedConfiguration="_ww_bMeH6EeiBVMGt1MSZsg">
+        <reusedConcern href="Reused_Persistence/Persistence.core#_1ZdQoNxTEeiuwMvwYzZkEA"/>
+        <configurations xmi:id="_ww_bMeH6EeiBVMGt1MSZsg" name="Persistence_PersistenceConfigurationIssue" reuse="_ww_bMOH6EeiBVMGt1MSZsg">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Persistence/Persistence.core#_1Zd3sNxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_1Zd3sdxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_36m-wNxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_AFpwwNxYEeiL2KNAFr2t2Q"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_HIXiYNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_Eqd8kNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_WmF0oNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_MqMMMNxUEeiuwMvwYzZkEA"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_-kjRuOH6EeiBVMGt1MSZsg" name="Association_PersonDataHandler_Person" selectedConfiguration="_-kjRueH6EeiBVMGt1MSZsg">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_-kjRueH6EeiBVMGt1MSZsg" name="Automatic selection" reuse="_-kjRuOH6EeiBVMGt1MSZsg">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+    </features>
+  </featureModel>
+</core:COREConcern>

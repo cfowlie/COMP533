@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_UWYJ4NxWEeiuwMvwYzZkEA" name="Configuration">
+  <realizes href="Persistence.core#_36m-wNxTEeiuwMvwYzZkEA"/>
+  <coreConcern href="Persistence.core#_1ZdQoNxTEeiuwMvwYzZkEA"/>
+  <structuralView xmi:id="_UWYJ4dxWEeiuwMvwYzZkEA">
+    <classes xsi:type="ram:Class" xmi:id="_UWYJ4txWEeiuwMvwYzZkEA" name="Config">
+      <attributes xmi:id="_UWYJ49xWEeiuwMvwYzZkEA" name="path" type="_UWYJ7dxWEeiuwMvwYzZkEA"/>
+      <attributes xmi:id="_UWYJ5NxWEeiuwMvwYzZkEA" name="username" type="_UWYJ7dxWEeiuwMvwYzZkEA"/>
+      <attributes xmi:id="_UWYJ5dxWEeiuwMvwYzZkEA" name="password" type="_UWYJ7dxWEeiuwMvwYzZkEA"/>
+      <attributes xmi:id="_UWYJ5txWEeiuwMvwYzZkEA" name="name" type="_UWYJ7dxWEeiuwMvwYzZkEA"/>
+      <attributes xmi:id="_UWYJ59xWEeiuwMvwYzZkEA" name="type" type="_UWYJ8txWEeiuwMvwYzZkEA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_UWYJ6NxWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RAny" xmi:id="_UWYJ6dxWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_UWYJ6txWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RInt" xmi:id="_UWYJ69xWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RChar" xmi:id="_UWYJ7NxWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RString" xmi:id="_UWYJ7dxWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_UWYJ7txWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_UWYJ79xWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RLong" xmi:id="_UWYJ8NxWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:RByte" xmi:id="_UWYJ8dxWEeiuwMvwYzZkEA"/>
+    <types xsi:type="ram:REnum" xmi:id="_UWYJ8txWEeiuwMvwYzZkEA" name="DatabaseType">
+      <literals xmi:id="_UWYJ89xWEeiuwMvwYzZkEA" name="SQLITE"/>
+      <literals xmi:id="_UWYJ9NxWEeiuwMvwYzZkEA" name="XML"/>
+    </types>
+  </structuralView>
+  <layout xmi:id="_UWYJ9dxWEeiuwMvwYzZkEA">
+    <containers xmi:id="_UWYJ9txWEeiuwMvwYzZkEA" key="_UWYJ4dxWEeiuwMvwYzZkEA">
+      <value xmi:id="_UWYJ99xWEeiuwMvwYzZkEA" key="_UWYJ4txWEeiuwMvwYzZkEA">
+        <value xmi:id="_UWYJ-NxWEeiuwMvwYzZkEA" x="783.00073" y="79.0007"/>
+      </value>
+      <value xmi:id="_UWYJ-dxWEeiuwMvwYzZkEA" key="_UWYJ8txWEeiuwMvwYzZkEA">
+        <value xmi:id="_UWYJ-txWEeiuwMvwYzZkEA" x="402.0016" y="127.5007"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

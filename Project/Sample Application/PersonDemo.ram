@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_0u9FkOH6EeiBVMGt1MSZsg" name="PersonDemo">
+  <modelReuses xmi:id="_0u9Fl-H6EeiBVMGt1MSZsg">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_0u9FmOH6EeiBVMGt1MSZsg">
+      <source xsi:type="ram:Aspect" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_wuKJoOH6EeiBVMGt1MSZsg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_0u9FmeH6EeiBVMGt1MSZsg" to="_0u9FouH6EeiBVMGt1MSZsg">
+        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_wuT6reH6EeiBVMGt1MSZsg"/>
+      </mappings>
+    </compositions>
+    <reuse href="Sample%20Application.core#_ww_bMOH6EeiBVMGt1MSZsg"/>
+  </modelReuses>
+  <modelReuses xmi:id="_-kjRsOH6EeiBVMGt1MSZsg">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_-kjRseH6EeiBVMGt1MSZsg">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many.ram#_-jceq-H6EeiBVMGt1MSZsg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_-kjRsuH6EeiBVMGt1MSZsg" to="_0u9Fm-H6EeiBVMGt1MSZsg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many.ram#_-jcereH6EeiBVMGt1MSZsg"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_-kjRs-H6EeiBVMGt1MSZsg" to="_0u9FouH6EeiBVMGt1MSZsg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many.ram#_-jcer-H6EeiBVMGt1MSZsg"/>
+        <operationMappings xmi:id="_-kjRtOH6EeiBVMGt1MSZsg" to="_-ktCsOH6EeiBVMGt1MSZsg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many.ram#_-jcesOH6EeiBVMGt1MSZsg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_-kjRteH6EeiBVMGt1MSZsg" to="_-ktCseH6EeiBVMGt1MSZsg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many.ram#_-jceseH6EeiBVMGt1MSZsg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_-kjRtuH6EeiBVMGt1MSZsg" to="_-ktCs-H6EeiBVMGt1MSZsg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many.ram#_-jces-H6EeiBVMGt1MSZsg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_-kjRt-H6EeiBVMGt1MSZsg" to="_-ktCtOH6EeiBVMGt1MSZsg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many.ram#_-jcetOH6EeiBVMGt1MSZsg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="Sample%20Application.core#_-kjRuOH6EeiBVMGt1MSZsg"/>
+  </modelReuses>
+  <realizes href="Sample%20Application.core#_chHFseHzEeiM0K7olOKsyQ"/>
+  <coreConcern href="Sample%20Application.core#_chF3kOHzEeiM0K7olOKsyQ"/>
+  <structuralView xmi:id="_0u9FmuH6EeiBVMGt1MSZsg">
+    <classes xsi:type="ram:Class" xmi:id="_0u9Fm-H6EeiBVMGt1MSZsg" name="Person">
+      <associationEnds xmi:id="_0u9FnOH6EeiBVMGt1MSZsg" name="myPersonDataHandler" lowerBound="1" navigable="false" assoc="_0u9Fp-H6EeiBVMGt1MSZsg"/>
+      <attributes xmi:id="_0u9FneH6EeiBVMGt1MSZsg" name="name" type="_0u9FreH6EeiBVMGt1MSZsg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_0u9FnuH6EeiBVMGt1MSZsg" name="Student" superTypes="_0u9Fm-H6EeiBVMGt1MSZsg">
+      <attributes xmi:id="_0u9Fn-H6EeiBVMGt1MSZsg" name="studentID" type="_0u9Fq-H6EeiBVMGt1MSZsg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_0u9FoOH6EeiBVMGt1MSZsg" name="Instructor" superTypes="_0u9Fm-H6EeiBVMGt1MSZsg">
+      <attributes xmi:id="_0u9FoeH6EeiBVMGt1MSZsg" name="faculty" type="_0u9FreH6EeiBVMGt1MSZsg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_0u9FouH6EeiBVMGt1MSZsg" name="PersonDataHandler">
+      <operations xmi:id="_-ktCsOH6EeiBVMGt1MSZsg" name="createManages" extendedVisibility="package" returnType="_0u9FouH6EeiBVMGt1MSZsg" operationType="Constructor"/>
+      <operations xmi:id="_-ktCseH6EeiBVMGt1MSZsg" name="containsManages" extendedVisibility="package" returnType="_0u9FquH6EeiBVMGt1MSZsg">
+        <parameters xmi:id="_-ktCsuH6EeiBVMGt1MSZsg" name="a" type="_0u9Fm-H6EeiBVMGt1MSZsg"/>
+      </operations>
+      <operations xmi:id="_-ktCs-H6EeiBVMGt1MSZsg" name="sizeOfManages" extendedVisibility="package" returnType="_0u9Fq-H6EeiBVMGt1MSZsg"/>
+      <operations xmi:id="_-ktCtOH6EeiBVMGt1MSZsg" name="getManages" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many.ram#_-jcetuH6EeiBVMGt1MSZsg"/>
+      </operations>
+      <associationEnds xmi:id="_0u9FpuH6EeiBVMGt1MSZsg" name="manages" upperBound="-1" assoc="_0u9Fp-H6EeiBVMGt1MSZsg" featureSelection="_-kjRsOH6EeiBVMGt1MSZsg"/>
+    </classes>
+    <associations xmi:id="_0u9Fp-H6EeiBVMGt1MSZsg" name="PersonDataHandler_Person" ends="_0u9FpuH6EeiBVMGt1MSZsg _0u9FnOH6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RVoid" xmi:id="_0u9FqOH6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RAny" xmi:id="_0u9FqeH6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_0u9FquH6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RInt" xmi:id="_0u9Fq-H6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RChar" xmi:id="_0u9FrOH6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RString" xmi:id="_0u9FreH6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_0u9FruH6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_0u9Fr-H6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RLong" xmi:id="_0u9FsOH6EeiBVMGt1MSZsg"/>
+    <types xsi:type="ram:RByte" xmi:id="_0u9FseH6EeiBVMGt1MSZsg"/>
+  </structuralView>
+  <layout xmi:id="_0u9soOH6EeiBVMGt1MSZsg">
+    <containers xmi:id="_0u9soeH6EeiBVMGt1MSZsg" key="_0u9FmuH6EeiBVMGt1MSZsg">
+      <value xmi:id="_0u9souH6EeiBVMGt1MSZsg" key="_0u9Fm-H6EeiBVMGt1MSZsg">
+        <value xmi:id="_0u9so-H6EeiBVMGt1MSZsg" x="1167.9998" y="188.0"/>
+      </value>
+      <value xmi:id="_0u9spOH6EeiBVMGt1MSZsg" key="_0u9FnuH6EeiBVMGt1MSZsg">
+        <value xmi:id="_0u9speH6EeiBVMGt1MSZsg" x="954.0005" y="410.086"/>
+      </value>
+      <value xmi:id="_0u9spuH6EeiBVMGt1MSZsg" key="_0u9FoOH6EeiBVMGt1MSZsg">
+        <value xmi:id="_0u9sp-H6EeiBVMGt1MSZsg" x="1406.0" y="410.086"/>
+      </value>
+      <value xmi:id="_0u9sqOH6EeiBVMGt1MSZsg" key="_0u9FouH6EeiBVMGt1MSZsg">
+        <value xmi:id="_0u9sqeH6EeiBVMGt1MSZsg" x="1611.0005" y="195.21094"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
