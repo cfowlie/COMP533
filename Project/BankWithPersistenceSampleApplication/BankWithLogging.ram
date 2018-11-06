@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_r7ojULp9EeiBEfOlEucTtg" name="BankWithLoggingSampleApplication">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_r7ojULp9EeiBEfOlEucTtg" name="BankWithPersistenceSampleApplication">
   <modelReuses xmi:id="_pUJRwLp_EeiBEfOlEucTtg">
     <compositions xsi:type="ram:Instantiation" xmi:id="_pUJRwbp_EeiBEfOlEucTtg">
       <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDoLp_EeiBEfOlEucTtg"/>
