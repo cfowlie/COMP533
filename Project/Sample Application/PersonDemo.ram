@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_0u9FkOH6EeiBVMGt1MSZsg" name="PersonDemo">
-  <modelReuses xmi:id="_0u9Fl-H6EeiBVMGt1MSZsg">
-    <compositions xsi:type="ram:Instantiation" xmi:id="_0u9FmOH6EeiBVMGt1MSZsg">
-      <source xsi:type="ram:Aspect" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_wuKJoOH6EeiBVMGt1MSZsg"/>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_0u9FmeH6EeiBVMGt1MSZsg" to="_0u9FouH6EeiBVMGt1MSZsg">
-        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_wuT6reH6EeiBVMGt1MSZsg"/>
-      </mappings>
-    </compositions>
-    <reuse href="Sample%20Application.core#_ww_bMOH6EeiBVMGt1MSZsg"/>
-  </modelReuses>
   <modelReuses xmi:id="_-kjRsOH6EeiBVMGt1MSZsg">
     <compositions xsi:type="ram:Instantiation" xmi:id="_-kjRseH6EeiBVMGt1MSZsg">
       <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many.ram#_-jceq-H6EeiBVMGt1MSZsg"/>
@@ -32,6 +23,15 @@
       </mappings>
     </compositions>
     <reuse href="Sample%20Application.core#_-kjRuOH6EeiBVMGt1MSZsg"/>
+  </modelReuses>
+  <modelReuses xmi:id="_UZm5cOH7EeiBVMGt1MSZsg">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_UZm5ceH7EeiBVMGt1MSZsg">
+      <source xsi:type="ram:Aspect" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_UZAcgOH7EeiBVMGt1MSZsg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_VCNKgOH7EeiBVMGt1MSZsg" to="_0u9FouH6EeiBVMGt1MSZsg">
+        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_UZT-luH7EeiBVMGt1MSZsg"/>
+      </mappings>
+    </compositions>
+    <reuse href="Sample%20Application.core#_UZm5cuH7EeiBVMGt1MSZsg"/>
   </modelReuses>
   <realizes href="Sample%20Application.core#_chHFseHzEeiM0K7olOKsyQ"/>
   <coreConcern href="Sample%20Application.core#_chF3kOHzEeiM0K7olOKsyQ"/>

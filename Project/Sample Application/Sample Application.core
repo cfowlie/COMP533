@@ -27,6 +27,19 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
+      <reuses xmi:id="_UZm5cuH7EeiBVMGt1MSZsg" name="Persistence1" selectedConfiguration="_UZm5c-H7EeiBVMGt1MSZsg">
+        <reusedConcern href="Reused_Persistence/Persistence.core#_1ZdQoNxTEeiuwMvwYzZkEA"/>
+        <configurations xmi:id="_UZm5c-H7EeiBVMGt1MSZsg" name="Persistence_IssueConfigurationPersistence" reuse="_UZm5cuH7EeiBVMGt1MSZsg">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Persistence/Persistence.core#_1Zd3sNxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_AFpwwNxYEeiL2KNAFr2t2Q"/>
+          <selected href="Reused_Persistence/Persistence.core#_36m-wNxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_1Zd3sdxTEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_MqMMMNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_HIXiYNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_WmF0oNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_Eqd8kNxUEeiuwMvwYzZkEA"/>
+        </configurations>
+      </reuses>
     </features>
   </featureModel>
 </core:COREConcern>
