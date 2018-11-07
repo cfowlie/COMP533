@@ -243,6 +243,32 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
+      <reuses xmi:id="_IFscsOI7Eei0bPPDzB5Ylw" name="Persistence1" selectedConfiguration="_IFscseI7Eei0bPPDzB5Ylw">
+        <reusedConcern href="Reused_Persistence/Persistence.core#_1ZdQoNxTEeiuwMvwYzZkEA"/>
+        <configurations xmi:id="_IFscseI7Eei0bPPDzB5Ylw" name="Persistence_PersistenceConfigurationIssue" reuse="_IFscsOI7Eei0bPPDzB5Ylw">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Persistence/Persistence.core#_1Zd3sNxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_1Zd3sdxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_36m-wNxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_AFpwwNxYEeiL2KNAFr2t2Q"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_HIXiYNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_MqMMMNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_WmF0oNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_Eqd8kNxUEeiuwMvwYzZkEA"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_8l-boOI7Eei0bPPDzB5Ylw" name="Persistence2" selectedConfiguration="_8l-boeI7Eei0bPPDzB5Ylw">
+        <reusedConcern href="Reused_Persistence/Persistence.core#_1ZdQoNxTEeiuwMvwYzZkEA"/>
+        <configurations xmi:id="_8l-boeI7Eei0bPPDzB5Ylw" name="Persistence_IssueConfigurationPersistence" reuse="_8l-boOI7Eei0bPPDzB5Ylw">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Persistence/Persistence.core#_1Zd3sNxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_AFpwwNxYEeiL2KNAFr2t2Q"/>
+          <selected href="Reused_Persistence/Persistence.core#_36m-wNxTEeiuwMvwYzZkEA"/>
+          <selected href="Reused_Persistence/Persistence.core#_1Zd3sdxTEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_WmF0oNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_Eqd8kNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_HIXiYNxUEeiuwMvwYzZkEA"/>
+          <reexposed href="Reused_Persistence/Persistence.core#_MqMMMNxUEeiuwMvwYzZkEA"/>
+        </configurations>
+      </reuses>
     </features>
   </featureModel>
 </core:COREConcern>

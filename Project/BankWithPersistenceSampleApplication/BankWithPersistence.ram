@@ -414,18 +414,6 @@
     </compositions>
     <reuse href="BankWithPersistence.core#_xwSIEL0mEeiuha-UdeUxLQ"/>
   </modelReuses>
-  <modelReuses xmi:id="_1DnOgOIcEeifRrBAPqLTIQ">
-    <compositions xsi:type="ram:Instantiation" xmi:id="_1DnOgeIcEeifRrBAPqLTIQ">
-      <source xsi:type="ram:Aspect" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1BrU0OIcEeifRrBAPqLTIQ"/>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_1urkwOIcEeifRrBAPqLTIQ" to="_mbGBALp_EeiBEfOlEucTtg">
-        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1B-PxuIcEeifRrBAPqLTIQ"/>
-      </mappings>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_3NSQwOIcEeifRrBAPqLTIQ" to="_sQCtELp9EeiBEfOlEucTtg">
-        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1B-PxuIcEeifRrBAPqLTIQ"/>
-      </mappings>
-    </compositions>
-    <reuse href="BankWithPersistence.core#_1DwYcOIcEeifRrBAPqLTIQ"/>
-  </modelReuses>
   <modelReuses xmi:id="_S9P9cOItEeijf8i-hs27Ow">
     <compositions xsi:type="ram:Instantiation" xmi:id="_S9P9ceItEeijf8i-hs27Ow">
       <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDoLp_EeiBEfOlEucTtg"/>
@@ -461,6 +449,18 @@
       </mappings>
     </compositions>
     <reuse href="BankWithPersistence.core#_TszyIuItEeijf8i-hs27Ow"/>
+  </modelReuses>
+  <modelReuses xmi:id="_8l90kOI7Eei0bPPDzB5Ylw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_8l90keI7Eei0bPPDzB5Ylw">
+      <source xsi:type="ram:Aspect" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1BrU0OIcEeifRrBAPqLTIQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="__OxC0OI7Eei0bPPDzB5Ylw" to="_mbGBALp_EeiBEfOlEucTtg">
+        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1B-PxuIcEeifRrBAPqLTIQ"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_BPlrEOI8Eei0bPPDzB5Ylw" to="_sQCtELp9EeiBEfOlEucTtg">
+        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1B-PxuIcEeifRrBAPqLTIQ"/>
+      </mappings>
+    </compositions>
+    <reuse href="BankWithPersistence.core#_8l-boOI7Eei0bPPDzB5Ylw"/>
   </modelReuses>
   <realizes href="BankWithPersistence.core#_rDCucbp9EeiBEfOlEucTtg"/>
   <coreConcern href="BankWithPersistence.core#_rDCHYLp9EeiBEfOlEucTtg"/>
