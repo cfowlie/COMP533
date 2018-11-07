@@ -7,15 +7,6 @@
   <featureModel xmi:id="_1Zd3sNxTEeiuwMvwYzZkEA" coreConcern="_1ZdQoNxTEeiuwMvwYzZkEA" root="_1Zd3sdxTEeiuwMvwYzZkEA">
     <features xmi:id="_1Zd3sdxTEeiuwMvwYzZkEA" name="Persistence" children="_36m-wNxTEeiuwMvwYzZkEA _Eqd8kNxUEeiuwMvwYzZkEA _HIXiYNxUEeiuwMvwYzZkEA _AFpwwNxYEeiL2KNAFr2t2Q">
       <realizedBy xsi:type="ram:Aspect" href="Persistence.ram#__fHckNxUEeiuwMvwYzZkEA"/>
-      <reuses xmi:id="_4lwYENxUEeiuwMvwYzZkEA" name="Association_PersistanceManager_Config" selectedConfiguration="_4lw_INxUEeiuwMvwYzZkEA">
-        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
-        <configurations xmi:id="_4lw_INxUEeiuwMvwYzZkEA" name="Automatic selection" reuse="_4lwYENxUEeiuwMvwYzZkEA">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
-        </configurations>
-      </reuses>
     </features>
     <features xmi:id="_36m-wNxTEeiuwMvwYzZkEA" name="Configuration" children="_MqMMMNxUEeiuwMvwYzZkEA _WmF0oNxUEeiuwMvwYzZkEA" parent="_1Zd3sdxTEeiuwMvwYzZkEA" parentRelationship="Mandatory">
       <realizedBy xsi:type="ram:Aspect" href="Persistence.ram#__fHckNxUEeiuwMvwYzZkEA"/>
