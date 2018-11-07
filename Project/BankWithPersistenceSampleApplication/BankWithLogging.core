@@ -225,6 +225,24 @@
           <reexposed href="Reused_Persistence/Persistence.core#_Eqd8kNxUEeiuwMvwYzZkEA"/>
         </configurations>
       </reuses>
+      <reuses xmi:id="_S9P9duItEeijf8i-hs27Ow" name="Association_Customer_PersistenceManager" selectedConfiguration="_S9P9d-ItEeijf8i-hs27Ow">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_S9P9d-ItEeijf8i-hs27Ow" name="Automatic selection" reuse="_S9P9duItEeijf8i-hs27Ow">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_TszyIuItEeijf8i-hs27Ow" name="Association_Account_PersistenceManager" selectedConfiguration="_TszyI-ItEeijf8i-hs27Ow">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_TszyI-ItEeijf8i-hs27Ow" name="Automatic selection" reuse="_TszyIuItEeijf8i-hs27Ow">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
     </features>
   </featureModel>
 </core:COREConcern>
