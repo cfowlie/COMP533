@@ -25,4 +25,4 @@ The concern we have chosen is persistence. This allows for accurate and effectiv
 - Migrations between different data types can allow for users to increase compatability with other software being used, or increase performance if the stored data size is better optimized with another data/ database type. High contribution value as it will increase the performance and infrastructure of the system using persistence if used in the correct situation.
 
 #Other notes
-Although there are many existing persistence libraries, we chose to take this on as a new concern. This is due to none of us being farmiliar enough with existing libraries.
+We chose persistence as a concern because it is relevent to a lot of modern mobile technology. Most services would be useless without some sort of persistence.
