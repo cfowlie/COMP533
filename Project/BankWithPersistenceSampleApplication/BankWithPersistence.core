@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_rDCHYLp9EeiBEfOlEucTtg" name="BankWithLogging">
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_rDCHYLp9EeiBEfOlEucTtg" name="BankWithPersistence">
   <models xsi:type="core:COREFeatureModel" href="#_rDCucLp9EeiBEfOlEucTtg"/>
-  <models xsi:type="ram:Aspect" href="BankWithLogging.ram#_r7ojULp9EeiBEfOlEucTtg"/>
+  <models xsi:type="ram:Aspect" href="BankWithPersistence.ram#_r7ojULp9EeiBEfOlEucTtg"/>
   <featureModel xmi:id="_rDCucLp9EeiBEfOlEucTtg" coreConcern="_rDCHYLp9EeiBEfOlEucTtg" root="_rDCucbp9EeiBEfOlEucTtg">
-    <features xmi:id="_rDCucbp9EeiBEfOlEucTtg" name="BankWithLogging">
-      <realizedBy xsi:type="ram:Aspect" href="BankWithLogging.ram#_r7ojULp9EeiBEfOlEucTtg"/>
+    <features xmi:id="_rDCucbp9EeiBEfOlEucTtg" name="BankWithPersistence">
+      <realizedBy xsi:type="ram:Aspect" href="BankWithPersistence.ram#_r7ojULp9EeiBEfOlEucTtg"/>
       <reuses xmi:id="_pUJRxrp_EeiBEfOlEucTtg" name="Association_Account_Customer" selectedConfiguration="_pUJRx7p_EeiBEfOlEucTtg">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_pUJRx7p_EeiBEfOlEucTtg" name="Automatic selection" reuse="_pUJRxrp_EeiBEfOlEucTtg">
@@ -14,7 +14,7 @@
           <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_XdHpJrtsEei9XavQa5OSvg" name="Association_BankWithLogging_DefaultListModel" selectedConfiguration="_XdHpJ7tsEei9XavQa5OSvg">
+      <reuses xmi:id="_XdHpJrtsEei9XavQa5OSvg" name="Association_BankWithPersistence_DefaultListModel" selectedConfiguration="_XdHpJ7tsEei9XavQa5OSvg">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_XdHpJ7tsEei9XavQa5OSvg" name="Automatic selection" reuse="_XdHpJrtsEei9XavQa5OSvg">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
@@ -23,7 +23,7 @@
           <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_A5iSBrttEei3s_2c1-2SCQ" name="Association_BankWithLogging_JList" selectedConfiguration="_A5iSB7ttEei3s_2c1-2SCQ">
+      <reuses xmi:id="_A5iSBrttEei3s_2c1-2SCQ" name="Association_BankWithPersistence_JList" selectedConfiguration="_A5iSB7ttEei3s_2c1-2SCQ">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_A5iSB7ttEei3s_2c1-2SCQ" name="Automatic selection" reuse="_A5iSBrttEei3s_2c1-2SCQ">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
@@ -32,7 +32,7 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_4jcsprtzEei3s_2c1-2SCQ" name="Association_BankWithLogging_JButton" selectedConfiguration="_4jcsp7tzEei3s_2c1-2SCQ">
+      <reuses xmi:id="_4jcsprtzEei3s_2c1-2SCQ" name="Association_BankWithPersistence_JButton" selectedConfiguration="_4jcsp7tzEei3s_2c1-2SCQ">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_4jcsp7tzEei3s_2c1-2SCQ" name="Automatic selection" reuse="_4jcsprtzEei3s_2c1-2SCQ">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
@@ -41,7 +41,7 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_6r3xtrtzEei3s_2c1-2SCQ" name="Association_BankWithLogging_JButton1" selectedConfiguration="_6r3xt7tzEei3s_2c1-2SCQ">
+      <reuses xmi:id="_6r3xtrtzEei3s_2c1-2SCQ" name="Association_BankWithPersistence_JButton1" selectedConfiguration="_6r3xt7tzEei3s_2c1-2SCQ">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_6r3xt7tzEei3s_2c1-2SCQ" name="Automatic selection" reuse="_6r3xtrtzEei3s_2c1-2SCQ">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
@@ -50,7 +50,7 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_mDbGBrt-Eei3s_2c1-2SCQ" name="Association_BankWithLogging_JTextField" selectedConfiguration="_mDbGB7t-Eei3s_2c1-2SCQ">
+      <reuses xmi:id="_mDbGBrt-Eei3s_2c1-2SCQ" name="Association_BankWithPersistence_JTextField" selectedConfiguration="_mDbGB7t-Eei3s_2c1-2SCQ">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_mDbGB7t-Eei3s_2c1-2SCQ" name="Automatic selection" reuse="_mDbGBrt-Eei3s_2c1-2SCQ">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
@@ -86,7 +86,7 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_m1tk8LuGEei3s_2c1-2SCQ" name="Association_BankWithLogging_DefaultListModel1" selectedConfiguration="_m1tk8buGEei3s_2c1-2SCQ">
+      <reuses xmi:id="_m1tk8LuGEei3s_2c1-2SCQ" name="Association_BankWithPersistence_DefaultListModel1" selectedConfiguration="_m1tk8buGEei3s_2c1-2SCQ">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_m1tk8buGEei3s_2c1-2SCQ" name="Automatic selection" reuse="_m1tk8LuGEei3s_2c1-2SCQ">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
@@ -95,7 +95,7 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_romFJruGEei3s_2c1-2SCQ" name="Association_BankWithLogging_JList1" selectedConfiguration="_romFJ7uGEei3s_2c1-2SCQ">
+      <reuses xmi:id="_romFJruGEei3s_2c1-2SCQ" name="Association_BankWithPersistence_JList1" selectedConfiguration="_romFJ7uGEei3s_2c1-2SCQ">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_romFJ7uGEei3s_2c1-2SCQ" name="Automatic selection" reuse="_romFJruGEei3s_2c1-2SCQ">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
@@ -122,7 +122,7 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_Ag_Yprw9EeiazudA_-PRxQ" name="Association_BankWithLogging_JButton2" selectedConfiguration="_Ag_Yp7w9EeiazudA_-PRxQ">
+      <reuses xmi:id="_Ag_Yprw9EeiazudA_-PRxQ" name="Association_BankWithPersistence_JButton2" selectedConfiguration="_Ag_Yp7w9EeiazudA_-PRxQ">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_Ag_Yp7w9EeiazudA_-PRxQ" name="Automatic selection" reuse="_Ag_Yprw9EeiazudA_-PRxQ">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
@@ -131,7 +131,7 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_C0ba5rw9EeiazudA_-PRxQ" name="Association_BankWithLogging_JButton3" selectedConfiguration="_C0ba57w9EeiazudA_-PRxQ">
+      <reuses xmi:id="_C0ba5rw9EeiazudA_-PRxQ" name="Association_BankWithPersistence_JButton3" selectedConfiguration="_C0ba57w9EeiazudA_-PRxQ">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_C0ba57w9EeiazudA_-PRxQ" name="Automatic selection" reuse="_C0ba5rw9EeiazudA_-PRxQ">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
@@ -140,7 +140,7 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_Pmibdrw9EeiazudA_-PRxQ" name="Association_BankWithLogging_JTextField1" selectedConfiguration="_Pmibd7w9EeiazudA_-PRxQ">
+      <reuses xmi:id="_Pmibdrw9EeiazudA_-PRxQ" name="Association_BankWithPersistence_JTextField1" selectedConfiguration="_Pmibd7w9EeiazudA_-PRxQ">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
         <configurations xmi:id="_Pmibd7w9EeiazudA_-PRxQ" name="Automatic selection" reuse="_Pmibdrw9EeiazudA_-PRxQ">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>

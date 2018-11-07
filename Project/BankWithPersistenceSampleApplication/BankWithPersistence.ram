@@ -16,7 +16,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_pUJRxrp_EeiBEfOlEucTtg"/>
+    <reuse href="BankWithPersistence.core#_pUJRxrp_EeiBEfOlEucTtg"/>
   </modelReuses>
   <modelReuses xmi:id="_XdHpILtsEei9XavQa5OSvg">
     <compositions xsi:type="ram:Instantiation" xmi:id="_XdHpIbtsEei9XavQa5OSvg">
@@ -34,7 +34,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_XdHpJrtsEei9XavQa5OSvg"/>
+    <reuse href="BankWithPersistence.core#_XdHpJrtsEei9XavQa5OSvg"/>
   </modelReuses>
   <modelReuses xmi:id="_A5iSALttEei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_A5iSAbttEei3s_2c1-2SCQ">
@@ -52,7 +52,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_A5iSBrttEei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_A5iSBrttEei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_4jcsoLtzEei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_4jcsobtzEei3s_2c1-2SCQ">
@@ -70,7 +70,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_4jcsprtzEei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_4jcsprtzEei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_6r3xsLtzEei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_6r3xsbtzEei3s_2c1-2SCQ">
@@ -88,7 +88,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_6r3xtrtzEei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_6r3xtrtzEei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_mDbGALt-Eei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_mDbGAbt-Eei3s_2c1-2SCQ">
@@ -106,7 +106,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_mDbGBrt-Eei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_mDbGBrt-Eei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_S19OwLuCEei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_S19OwbuCEei3s_2c1-2SCQ">
@@ -124,7 +124,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_S19OxruCEei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_S19OxruCEei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_em9-sLuCEei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_em9-sbuCEei3s_2c1-2SCQ">
@@ -142,7 +142,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_em-lwLuCEei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_em-lwLuCEei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_6auZgLuCEei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_6auZgbuCEei3s_2c1-2SCQ">
@@ -160,7 +160,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_6auZhruCEei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_6auZhruCEei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_m1s94LuGEei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_m1s94buGEei3s_2c1-2SCQ">
@@ -178,7 +178,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_m1tk8LuGEei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_m1tk8LuGEei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_romFILuGEei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_romFIbuGEei3s_2c1-2SCQ">
@@ -196,7 +196,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_romFJruGEei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_romFJruGEei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_TgjxULuKEei3s_2c1-2SCQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_TgjxUbuKEei3s_2c1-2SCQ">
@@ -214,7 +214,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_TgkYYLuKEei3s_2c1-2SCQ"/>
+    <reuse href="BankWithPersistence.core#_TgkYYLuKEei3s_2c1-2SCQ"/>
   </modelReuses>
   <modelReuses xmi:id="_1brRELw8EeiazudA_-PRxQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_1brREbw8EeiazudA_-PRxQ">
@@ -232,7 +232,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_1brRFrw8EeiazudA_-PRxQ"/>
+    <reuse href="BankWithPersistence.core#_1brRFrw8EeiazudA_-PRxQ"/>
   </modelReuses>
   <modelReuses xmi:id="_Ag_YoLw9EeiazudA_-PRxQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_Ag_Yobw9EeiazudA_-PRxQ">
@@ -250,7 +250,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_Ag_Yprw9EeiazudA_-PRxQ"/>
+    <reuse href="BankWithPersistence.core#_Ag_Yprw9EeiazudA_-PRxQ"/>
   </modelReuses>
   <modelReuses xmi:id="_C0ba4Lw9EeiazudA_-PRxQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_C0ba4bw9EeiazudA_-PRxQ">
@@ -268,7 +268,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_C0ba5rw9EeiazudA_-PRxQ"/>
+    <reuse href="BankWithPersistence.core#_C0ba5rw9EeiazudA_-PRxQ"/>
   </modelReuses>
   <modelReuses xmi:id="_PmibcLw9EeiazudA_-PRxQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_Pmibcbw9EeiazudA_-PRxQ">
@@ -286,7 +286,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_Pmibdrw9EeiazudA_-PRxQ"/>
+    <reuse href="BankWithPersistence.core#_Pmibdrw9EeiazudA_-PRxQ"/>
   </modelReuses>
   <modelReuses xmi:id="_TQ1GcLw-EeiazudA_-PRxQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_TQ1Gcbw-EeiazudA_-PRxQ">
@@ -304,7 +304,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_TQ1Gdrw-EeiazudA_-PRxQ"/>
+    <reuse href="BankWithPersistence.core#_TQ1Gdrw-EeiazudA_-PRxQ"/>
   </modelReuses>
   <modelReuses xmi:id="_kwygwLw_EeiazudA_-PRxQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_kwygwbw_EeiazudA_-PRxQ">
@@ -322,7 +322,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_kwygxrw_EeiazudA_-PRxQ"/>
+    <reuse href="BankWithPersistence.core#_kwygxrw_EeiazudA_-PRxQ"/>
   </modelReuses>
   <modelReuses xmi:id="_EFGlQL0REeiuha-UdeUxLQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_EFGlQb0REeiuha-UdeUxLQ">
@@ -340,7 +340,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_EFGlRr0REeiuha-UdeUxLQ"/>
+    <reuse href="BankWithPersistence.core#_EFGlRr0REeiuha-UdeUxLQ"/>
   </modelReuses>
   <modelReuses xmi:id="_JTG7ML0REeiuha-UdeUxLQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_JTG7Mb0REeiuha-UdeUxLQ">
@@ -358,7 +358,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_JTG7Nr0REeiuha-UdeUxLQ"/>
+    <reuse href="BankWithPersistence.core#_JTG7Nr0REeiuha-UdeUxLQ"/>
   </modelReuses>
   <modelReuses xmi:id="_OwczAL0kEeiuha-UdeUxLQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_OwczAb0kEeiuha-UdeUxLQ">
@@ -376,7 +376,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_OwczBr0kEeiuha-UdeUxLQ"/>
+    <reuse href="BankWithPersistence.core#_OwczBr0kEeiuha-UdeUxLQ"/>
   </modelReuses>
   <modelReuses xmi:id="_ZmHDEL0mEeiuha-UdeUxLQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_ZmHDEb0mEeiuha-UdeUxLQ">
@@ -394,7 +394,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_ZmHDFr0mEeiuha-UdeUxLQ"/>
+    <reuse href="BankWithPersistence.core#_ZmHDFr0mEeiuha-UdeUxLQ"/>
   </modelReuses>
   <modelReuses xmi:id="_xwRhAL0mEeiuha-UdeUxLQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_xwRhAb0mEeiuha-UdeUxLQ">
@@ -412,7 +412,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_xwSIEL0mEeiuha-UdeUxLQ"/>
+    <reuse href="BankWithPersistence.core#_xwSIEL0mEeiuha-UdeUxLQ"/>
   </modelReuses>
   <modelReuses xmi:id="_1DnOgOIcEeifRrBAPqLTIQ">
     <compositions xsi:type="ram:Instantiation" xmi:id="_1DnOgeIcEeifRrBAPqLTIQ">
@@ -424,7 +424,7 @@
         <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1B-PxuIcEeifRrBAPqLTIQ"/>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_1DwYcOIcEeifRrBAPqLTIQ"/>
+    <reuse href="BankWithPersistence.core#_1DwYcOIcEeifRrBAPqLTIQ"/>
   </modelReuses>
   <modelReuses xmi:id="_S9P9cOItEeijf8i-hs27Ow">
     <compositions xsi:type="ram:Instantiation" xmi:id="_S9P9ceItEeijf8i-hs27Ow">
@@ -442,7 +442,7 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_S9P9duItEeijf8i-hs27Ow"/>
+    <reuse href="BankWithPersistence.core#_S9P9duItEeijf8i-hs27Ow"/>
   </modelReuses>
   <modelReuses xmi:id="_TszLEOItEeijf8i-hs27Ow">
     <compositions xsi:type="ram:Instantiation" xmi:id="_TszLEeItEeijf8i-hs27Ow">
@@ -460,10 +460,10 @@
         </operationMappings>
       </mappings>
     </compositions>
-    <reuse href="BankWithLogging.core#_TszyIuItEeijf8i-hs27Ow"/>
+    <reuse href="BankWithPersistence.core#_TszyIuItEeijf8i-hs27Ow"/>
   </modelReuses>
-  <realizes href="BankWithLogging.core#_rDCucbp9EeiBEfOlEucTtg"/>
-  <coreConcern href="BankWithLogging.core#_rDCHYLp9EeiBEfOlEucTtg"/>
+  <realizes href="BankWithPersistence.core#_rDCucbp9EeiBEfOlEucTtg"/>
+  <coreConcern href="BankWithPersistence.core#_rDCHYLp9EeiBEfOlEucTtg"/>
   <structuralView xmi:id="_r7ojUbp9EeiBEfOlEucTtg">
     <classes xsi:type="ram:Class" xmi:id="_sQCtELp9EeiBEfOlEucTtg" name="Account" visibility="public">
       <operations xmi:id="_vcv5oLp9EeiBEfOlEucTtg" name="create" visibility="public" returnType="_sQCtELp9EeiBEfOlEucTtg" operationType="Constructor">
@@ -507,7 +507,7 @@
       <associationEnds xmi:id="_S81twOItEeijf8i-hs27Ow" name="myPersistenceManager" lowerBound="1" assoc="_S82U0eItEeijf8i-hs27Ow" featureSelection="_S9P9cOItEeijf8i-hs27Ow"/>
       <attributes xmi:id="_oXGasLp_EeiBEfOlEucTtg" name="name" type="_r7ojV7p9EeiBEfOlEucTtg"/>
     </classes>
-    <classes xsi:type="ram:Class" xmi:id="_z8MOgLp_EeiBEfOlEucTtg" name="BankWithLogging" visibility="public" superTypes="_pv8yMLtqEei9XavQa5OSvg _vU6PkLtqEei9XavQa5OSvg">
+    <classes xsi:type="ram:Class" xmi:id="_z8MOgLp_EeiBEfOlEucTtg" name="BankWithPersistence" visibility="public" superTypes="_pv8yMLtqEei9XavQa5OSvg _vU6PkLtqEei9XavQa5OSvg">
       <operations xmi:id="_Nri20LtrEei9XavQa5OSvg" name="create" visibility="public" returnType="_z8MOgLp_EeiBEfOlEucTtg" operationType="Constructor"/>
       <operations xmi:id="_18DNcLp_EeiBEfOlEucTtg" name="main" visibility="public" returnType="_r7ojUrp9EeiBEfOlEucTtg" static="true">
         <parameters xmi:id="_18DNcbp_EeiBEfOlEucTtg" name="args" type="_18B_ULp_EeiBEfOlEucTtg"/>
@@ -623,7 +623,7 @@
         <parameters xmi:id="_-XAB0buCEei3s_2c1-2SCQ" name="arg0" type="_mbGBALp_EeiBEfOlEucTtg"/>
         <parameters xmi:id="_-XAB0ruCEei3s_2c1-2SCQ" name="arg1" type="_r7ojVbp9EeiBEfOlEucTtg"/>
       </operations>
-      <associationEnds xmi:id="_Xc600LtsEei9XavQa5OSvg" name="myBankWithLogging" lowerBound="1" navigable="false" assoc="_Xc600btsEei9XavQa5OSvg"/>
+      <associationEnds xmi:id="_Xc600LtsEei9XavQa5OSvg" name="myBankWithPersistence" lowerBound="1" navigable="false" assoc="_Xc600btsEei9XavQa5OSvg"/>
       <associationEnds xmi:id="_6ajaYLuCEei3s_2c1-2SCQ" name="myCustomerListener" lowerBound="1" navigable="false" assoc="_6akBcLuCEei3s_2c1-2SCQ"/>
       <typeParameters xmi:id="_Rlg8kbtsEei9XavQa5OSvg" name="E" genericType="_mbGBALp_EeiBEfOlEucTtg"/>
     </classes>
@@ -642,7 +642,7 @@
       </operations>
       <operations xmi:id="_sS2dsLtzEei3s_2c1-2SCQ" name="getSelectedIndex" visibility="public" returnType="_r7ojVbp9EeiBEfOlEucTtg"/>
       <operations xmi:id="_m0sHoLw-EeiazudA_-PRxQ" name="getSelectedValue" visibility="public" returnType="_mbGBALp_EeiBEfOlEucTtg"/>
-      <associationEnds xmi:id="_A5ZIEbttEei3s_2c1-2SCQ" name="myBankWithLogging" lowerBound="1" navigable="false" assoc="_A5ZvILttEei3s_2c1-2SCQ"/>
+      <associationEnds xmi:id="_A5ZIEbttEei3s_2c1-2SCQ" name="myBankWithPersistence" lowerBound="1" navigable="false" assoc="_A5ZvILttEei3s_2c1-2SCQ"/>
       <associationEnds xmi:id="_TQquYLw-EeiazudA_-PRxQ" name="myAccountListener" lowerBound="1" navigable="false" assoc="_TQrVcLw-EeiazudA_-PRxQ"/>
       <associationEnds xmi:id="_kwhbALw_EeiazudA_-PRxQ" name="myCustomerListener" lowerBound="1" navigable="false" assoc="_kwiCELw_EeiazudA_-PRxQ"/>
       <typeParameters xmi:id="_9xXnMbtsEei3s_2c1-2SCQ" name="E" genericType="_mbGBALp_EeiBEfOlEucTtg"/>
@@ -666,12 +666,12 @@
       <operations xmi:id="_sgUesLuDEei3s_2c1-2SCQ" name="addActionListener" visibility="public" returnType="_r7ojUrp9EeiBEfOlEucTtg">
         <parameters xmi:id="_sgUesbuDEei3s_2c1-2SCQ" name="arg0" type="_vMYOkLt-Eei3s_2c1-2SCQ"/>
       </operations>
-      <associationEnds xmi:id="_4jX0IbtzEei3s_2c1-2SCQ" name="myBankWithLogging" lowerBound="1" navigable="false" assoc="_4jYbMLtzEei3s_2c1-2SCQ"/>
-      <associationEnds xmi:id="_6rvO0LtzEei3s_2c1-2SCQ" name="myBankWithLogging1" lowerBound="1" navigable="false" assoc="_6rv14LtzEei3s_2c1-2SCQ"/>
+      <associationEnds xmi:id="_4jX0IbtzEei3s_2c1-2SCQ" name="myBankWithPersistence" lowerBound="1" navigable="false" assoc="_4jYbMLtzEei3s_2c1-2SCQ"/>
+      <associationEnds xmi:id="_6rvO0LtzEei3s_2c1-2SCQ" name="myBankWithPersistence1" lowerBound="1" navigable="false" assoc="_6rv14LtzEei3s_2c1-2SCQ"/>
       <associationEnds xmi:id="_S12hEbuCEei3s_2c1-2SCQ" name="myCustomerListener" lowerBound="1" navigable="false" assoc="_S13IILuCEei3s_2c1-2SCQ"/>
       <associationEnds xmi:id="_1bV54bw8EeiazudA_-PRxQ" name="myCustomerListener1" lowerBound="1" navigable="false" assoc="_1bWg8Lw8EeiazudA_-PRxQ"/>
-      <associationEnds xmi:id="_AguS4Lw9EeiazudA_-PRxQ" name="myBankWithLogging2" lowerBound="1" navigable="false" assoc="_Agu58Lw9EeiazudA_-PRxQ"/>
-      <associationEnds xmi:id="_C0JHALw9EeiazudA_-PRxQ" name="myBankWithLogging3" lowerBound="1" navigable="false" assoc="_C0JuELw9EeiazudA_-PRxQ"/>
+      <associationEnds xmi:id="_AguS4Lw9EeiazudA_-PRxQ" name="myBankWithPersistence2" lowerBound="1" navigable="false" assoc="_Agu58Lw9EeiazudA_-PRxQ"/>
+      <associationEnds xmi:id="_C0JHALw9EeiazudA_-PRxQ" name="myBankWithPersistence3" lowerBound="1" navigable="false" assoc="_C0JuELw9EeiazudA_-PRxQ"/>
       <associationEnds xmi:id="_OwJ4EL0kEeiuha-UdeUxLQ" name="myAccountActionListener" lowerBound="1" navigable="false" assoc="_OwKfIL0kEeiuha-UdeUxLQ"/>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_hPu5ELt0Eei3s_2c1-2SCQ" name="LayoutManager" instanceClassName="java.awt.LayoutManager" interface="true"/>
@@ -694,9 +694,9 @@
         <parameters xmi:id="_QZbsgbuDEei3s_2c1-2SCQ" name="arg0" type="_r7ojV7p9EeiBEfOlEucTtg"/>
       </operations>
       <operations xmi:id="_RPApoLuDEei3s_2c1-2SCQ" name="requestFocusInWindow" visibility="public" returnType="_r7ojVLp9EeiBEfOlEucTtg"/>
-      <associationEnds xmi:id="_mDSjILt-Eei3s_2c1-2SCQ" name="myBankWithLogging" lowerBound="1" navigable="false" assoc="_mDTKMLt-Eei3s_2c1-2SCQ"/>
+      <associationEnds xmi:id="_mDSjILt-Eei3s_2c1-2SCQ" name="myBankWithPersistence" lowerBound="1" navigable="false" assoc="_mDTKMLt-Eei3s_2c1-2SCQ"/>
       <associationEnds xmi:id="_em5GMbuCEei3s_2c1-2SCQ" name="myCustomerListener" lowerBound="1" navigable="false" assoc="_em5tQLuCEei3s_2c1-2SCQ"/>
-      <associationEnds xmi:id="_PmTx8bw9EeiazudA_-PRxQ" name="myBankWithLogging1" lowerBound="1" navigable="false" assoc="_PmUZALw9EeiazudA_-PRxQ"/>
+      <associationEnds xmi:id="_PmTx8bw9EeiazudA_-PRxQ" name="myBankWithPersistence1" lowerBound="1" navigable="false" assoc="_PmUZALw9EeiazudA_-PRxQ"/>
       <associationEnds xmi:id="_JS8jIb0REeiuha-UdeUxLQ" name="myAccountActionListener" lowerBound="1" navigable="false" assoc="_JS9KML0REeiuha-UdeUxLQ"/>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_vMYOkLt-Eei3s_2c1-2SCQ" name="ActionListener" instanceClassName="java.awt.event.ActionListener" interface="true"/>
@@ -760,7 +760,7 @@
         <parameters xmi:id="_liWfobuGEei3s_2c1-2SCQ" name="arg0" type="_sQCtELp9EeiBEfOlEucTtg"/>
         <parameters xmi:id="_liWforuGEei3s_2c1-2SCQ" name="arg1" type="_r7ojVbp9EeiBEfOlEucTtg"/>
       </operations>
-      <associationEnds xmi:id="_m1il0LuGEei3s_2c1-2SCQ" name="myBankWithLogging" lowerBound="1" navigable="false" assoc="_m1jM4LuGEei3s_2c1-2SCQ"/>
+      <associationEnds xmi:id="_m1il0LuGEei3s_2c1-2SCQ" name="myBankWithPersistence" lowerBound="1" navigable="false" assoc="_m1jM4LuGEei3s_2c1-2SCQ"/>
       <associationEnds xmi:id="_TgZZQLuKEei3s_2c1-2SCQ" name="myAccountListener" lowerBound="1" navigable="false" assoc="_TgaAULuKEei3s_2c1-2SCQ"/>
       <typeParameters xmi:id="_jSn4sbuGEei3s_2c1-2SCQ" name="E" genericType="_sQCtELp9EeiBEfOlEucTtg"/>
     </classes>
@@ -779,7 +779,7 @@
       </operations>
       <operations xmi:id="_OdnjQLuHEei3s_2c1-2SCQ" name="getSelectedIndex" visibility="public" returnType="_r7ojVbp9EeiBEfOlEucTtg"/>
       <operations xmi:id="_Px1csL0SEeiuha-UdeUxLQ" name="getSelectedValue" visibility="public" returnType="_sQCtELp9EeiBEfOlEucTtg"/>
-      <associationEnds xmi:id="_roae8LuGEei3s_2c1-2SCQ" name="myBankWithLogging" lowerBound="1" navigable="false" assoc="_robGALuGEei3s_2c1-2SCQ"/>
+      <associationEnds xmi:id="_roae8LuGEei3s_2c1-2SCQ" name="myBankWithPersistence" lowerBound="1" navigable="false" assoc="_robGALuGEei3s_2c1-2SCQ"/>
       <associationEnds xmi:id="_EEwnAL0REeiuha-UdeUxLQ" name="myAccountActionListener" lowerBound="1" navigable="false" assoc="_EEwnAb0REeiuha-UdeUxLQ"/>
       <associationEnds xmi:id="_xv_NIL0mEeiuha-UdeUxLQ" name="myAccountListener" lowerBound="1" navigable="false" assoc="_xwAbQL0mEeiuha-UdeUxLQ"/>
       <typeParameters xmi:id="_qmK-0buGEei3s_2c1-2SCQ" name="E" genericType="_sQCtELp9EeiBEfOlEucTtg"/>
@@ -877,21 +877,21 @@
       <associationEnds xmi:id="_TsfpEeItEeijf8i-hs27Ow" name="myAccount" lowerBound="1" navigable="false" assoc="_TsgQIOItEeijf8i-hs27Ow"/>
     </classes>
     <associations xmi:id="_pRTZILp_EeiBEfOlEucTtg" name="Account_Customer" ends="_pRSyELp_EeiBEfOlEucTtg _pRSyEbp_EeiBEfOlEucTtg"/>
-    <associations xmi:id="_Xc600btsEei9XavQa5OSvg" name="BankWithLogging_DefaultListModel" ends="_Xc6NwLtsEei9XavQa5OSvg _Xc600LtsEei9XavQa5OSvg"/>
-    <associations xmi:id="_A5ZvILttEei3s_2c1-2SCQ" name="BankWithLogging_JList" ends="_A5ZIELttEei3s_2c1-2SCQ _A5ZIEbttEei3s_2c1-2SCQ"/>
-    <associations xmi:id="_4jYbMLtzEei3s_2c1-2SCQ" name="BankWithLogging_JButton" ends="_4jX0ILtzEei3s_2c1-2SCQ _4jX0IbtzEei3s_2c1-2SCQ"/>
-    <associations xmi:id="_6rv14LtzEei3s_2c1-2SCQ" name="BankWithLogging_JButton" ends="_6runwLtzEei3s_2c1-2SCQ _6rvO0LtzEei3s_2c1-2SCQ"/>
-    <associations xmi:id="_mDTKMLt-Eei3s_2c1-2SCQ" name="BankWithLogging_JTextField" ends="_mDR8ELt-Eei3s_2c1-2SCQ _mDSjILt-Eei3s_2c1-2SCQ"/>
+    <associations xmi:id="_Xc600btsEei9XavQa5OSvg" name="BankWithPersistence_DefaultListModel" ends="_Xc6NwLtsEei9XavQa5OSvg _Xc600LtsEei9XavQa5OSvg"/>
+    <associations xmi:id="_A5ZvILttEei3s_2c1-2SCQ" name="BankWithPersistence_JList" ends="_A5ZIELttEei3s_2c1-2SCQ _A5ZIEbttEei3s_2c1-2SCQ"/>
+    <associations xmi:id="_4jYbMLtzEei3s_2c1-2SCQ" name="BankWithPersistence_JButton" ends="_4jX0ILtzEei3s_2c1-2SCQ _4jX0IbtzEei3s_2c1-2SCQ"/>
+    <associations xmi:id="_6rv14LtzEei3s_2c1-2SCQ" name="BankWithPersistence_JButton" ends="_6runwLtzEei3s_2c1-2SCQ _6rvO0LtzEei3s_2c1-2SCQ"/>
+    <associations xmi:id="_mDTKMLt-Eei3s_2c1-2SCQ" name="BankWithPersistence_JTextField" ends="_mDR8ELt-Eei3s_2c1-2SCQ _mDSjILt-Eei3s_2c1-2SCQ"/>
     <associations xmi:id="_S13IILuCEei3s_2c1-2SCQ" name="CustomerListener_JButton" ends="_S12hELuCEei3s_2c1-2SCQ _S12hEbuCEei3s_2c1-2SCQ"/>
     <associations xmi:id="_em5tQLuCEei3s_2c1-2SCQ" name="CustomerListener_JTextField" ends="_em5GMLuCEei3s_2c1-2SCQ _em5GMbuCEei3s_2c1-2SCQ"/>
     <associations xmi:id="_6akBcLuCEei3s_2c1-2SCQ" name="CustomerListener_DefaultListModel" ends="_6aizULuCEei3s_2c1-2SCQ _6ajaYLuCEei3s_2c1-2SCQ"/>
-    <associations xmi:id="_m1jM4LuGEei3s_2c1-2SCQ" name="BankWithLogging_DefaultListModel" ends="_m1hXsLuGEei3s_2c1-2SCQ _m1il0LuGEei3s_2c1-2SCQ"/>
-    <associations xmi:id="_robGALuGEei3s_2c1-2SCQ" name="BankWithLogging_JList" ends="_roZQ0LuGEei3s_2c1-2SCQ _roae8LuGEei3s_2c1-2SCQ"/>
+    <associations xmi:id="_m1jM4LuGEei3s_2c1-2SCQ" name="BankWithPersistence_DefaultListModel" ends="_m1hXsLuGEei3s_2c1-2SCQ _m1il0LuGEei3s_2c1-2SCQ"/>
+    <associations xmi:id="_robGALuGEei3s_2c1-2SCQ" name="BankWithPersistence_JList" ends="_roZQ0LuGEei3s_2c1-2SCQ _roae8LuGEei3s_2c1-2SCQ"/>
     <associations xmi:id="_TgaAULuKEei3s_2c1-2SCQ" name="AccountListener_DefaultListModel" ends="_TgYLILuKEei3s_2c1-2SCQ _TgZZQLuKEei3s_2c1-2SCQ"/>
     <associations xmi:id="_1bWg8Lw8EeiazudA_-PRxQ" name="CustomerListener_JButton" ends="_1bV54Lw8EeiazudA_-PRxQ _1bV54bw8EeiazudA_-PRxQ"/>
-    <associations xmi:id="_Agu58Lw9EeiazudA_-PRxQ" name="BankWithLogging_JButton" ends="_Agtr0Lw9EeiazudA_-PRxQ _AguS4Lw9EeiazudA_-PRxQ"/>
-    <associations xmi:id="_C0JuELw9EeiazudA_-PRxQ" name="BankWithLogging_JButton" ends="_C0If8Lw9EeiazudA_-PRxQ _C0JHALw9EeiazudA_-PRxQ"/>
-    <associations xmi:id="_PmUZALw9EeiazudA_-PRxQ" name="BankWithLogging_JTextField" ends="_PmTx8Lw9EeiazudA_-PRxQ _PmTx8bw9EeiazudA_-PRxQ"/>
+    <associations xmi:id="_Agu58Lw9EeiazudA_-PRxQ" name="BankWithPersistence_JButton" ends="_Agtr0Lw9EeiazudA_-PRxQ _AguS4Lw9EeiazudA_-PRxQ"/>
+    <associations xmi:id="_C0JuELw9EeiazudA_-PRxQ" name="BankWithPersistence_JButton" ends="_C0If8Lw9EeiazudA_-PRxQ _C0JHALw9EeiazudA_-PRxQ"/>
+    <associations xmi:id="_PmUZALw9EeiazudA_-PRxQ" name="BankWithPersistence_JTextField" ends="_PmTx8Lw9EeiazudA_-PRxQ _PmTx8bw9EeiazudA_-PRxQ"/>
     <associations xmi:id="_TQrVcLw-EeiazudA_-PRxQ" name="AccountListener_JList" ends="_TQqHULw-EeiazudA_-PRxQ _TQquYLw-EeiazudA_-PRxQ"/>
     <associations xmi:id="_kwiCELw_EeiazudA_-PRxQ" name="CustomerListener_JList" ends="_kwgz8Lw_EeiazudA_-PRxQ _kwhbALw_EeiazudA_-PRxQ"/>
     <associations xmi:id="_EEwnAb0REeiuha-UdeUxLQ" name="AccountActionListener_JList" ends="_EEv_8L0REeiuha-UdeUxLQ _EEwnAL0REeiuha-UdeUxLQ"/>
