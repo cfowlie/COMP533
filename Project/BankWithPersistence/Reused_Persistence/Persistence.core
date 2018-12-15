@@ -7,13 +7,29 @@
   <featureModel xmi:id="_1Zd3sNxTEeiuwMvwYzZkEA" coreConcern="_1ZdQoNxTEeiuwMvwYzZkEA" root="_1Zd3sdxTEeiuwMvwYzZkEA">
     <features xmi:id="_1Zd3sdxTEeiuwMvwYzZkEA" name="Persistence" children="_36m-wNxTEeiuwMvwYzZkEA _Eqd8kNxUEeiuwMvwYzZkEA _HIXiYNxUEeiuwMvwYzZkEA _AFpwwNxYEeiL2KNAFr2t2Q">
       <realizedBy xsi:type="ram:Aspect" href="Persistence.ram#__fHckNxUEeiuwMvwYzZkEA"/>
-      <reuses xmi:id="_4lwYENxUEeiuwMvwYzZkEA" name="Association_PersistanceManager_Config" selectedConfiguration="_4lw_INxUEeiuwMvwYzZkEA">
+      <reuses xmi:id="_1t0FwACfEemDkaPhyWCSAw" name="Singleton" selectedConfiguration="_1t0FwQCfEemDkaPhyWCSAw">
+        <reusedConcern href="Reused_Singleton/Singleton.core#_d1_oUKBBEeS-cby9IJCtzQ"/>
+        <configurations xmi:id="_1t0FwQCfEemDkaPhyWCSAw" name="Singleton_Singleton" reuse="_1t0FwACfEemDkaPhyWCSAw">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Singleton/Singleton.core#_d1_oUaBBEeS-cby9IJCtzQ"/>
+          <selected href="Reused_Singleton/Singleton.core#_d1_oUqBBEeS-cby9IJCtzQ"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_gkyBFgCgEemDkaPhyWCSAw" name="Association_ManagedObjectContext_ManagedObjectContext" selectedConfiguration="_gkyBFwCgEemDkaPhyWCSAw">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
-        <configurations xmi:id="_4lw_INxUEeiuwMvwYzZkEA" name="Automatic selection" reuse="_4lwYENxUEeiuwMvwYzZkEA">
+        <configurations xmi:id="_gkyBFwCgEemDkaPhyWCSAw" name="Automatic selection" reuse="_gkyBFgCgEemDkaPhyWCSAw">
           <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
           <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_mXAeYACgEemDkaPhyWCSAw" name="Association_PersistenceManager_ManagedObjectContext" selectedConfiguration="_mXAeYQCgEemDkaPhyWCSAw">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_mXAeYQCgEemDkaPhyWCSAw" name="Automatic selection" reuse="_mXAeYACgEemDkaPhyWCSAw">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
     </features>

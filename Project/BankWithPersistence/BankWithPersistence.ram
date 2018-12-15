@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_r7ojULp9EeiBEfOlEucTtg" name="BankWithPersistenceSampleApplication">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_r7ojULp9EeiBEfOlEucTtg" name="BankWithPersistence">
   <modelReuses xmi:id="_pUJRwLp_EeiBEfOlEucTtg">
     <compositions xsi:type="ram:Instantiation" xmi:id="_pUJRwbp_EeiBEfOlEucTtg">
       <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDoLp_EeiBEfOlEucTtg"/>
@@ -414,53 +414,14 @@
     </compositions>
     <reuse href="BankWithPersistence.core#_xwSIEL0mEeiuha-UdeUxLQ"/>
   </modelReuses>
-  <modelReuses xmi:id="_S9P9cOItEeijf8i-hs27Ow">
-    <compositions xsi:type="ram:Instantiation" xmi:id="_S9P9ceItEeijf8i-hs27Ow">
-      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDoLp_EeiBEfOlEucTtg"/>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_S9P9cuItEeijf8i-hs27Ow" to="_rPvVwL0yEei4VOCAXwKjCQ">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDorp_EeiBEfOlEucTtg"/>
-      </mappings>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_S9P9c-ItEeijf8i-hs27Ow" to="_mbGBALp_EeiBEfOlEucTtg">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDpLp_EeiBEfOlEucTtg"/>
-        <operationMappings xmi:id="_S9P9dOItEeijf8i-hs27Ow" to="_S9em8OItEeijf8i-hs27Ow">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDpbp_EeiBEfOlEucTtg"/>
-        </operationMappings>
-        <operationMappings xmi:id="_S9P9deItEeijf8i-hs27Ow" to="_S9iRUOItEeijf8i-hs27Ow">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDprp_EeiBEfOlEucTtg"/>
-        </operationMappings>
+  <modelReuses xmi:id="_5NTN8ACrEemCZsMI3V3q4A">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_5NTN8QCrEemCZsMI3V3q4A">
+      <source xsi:type="ram:Aspect" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_5MofkACrEemCZsMI3V3q4A"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_56YWYACrEemCZsMI3V3q4A" to="_z8MOgLp_EeiBEfOlEucTtg">
+        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_5MpGpgCrEemCZsMI3V3q4A"/>
       </mappings>
     </compositions>
-    <reuse href="BankWithPersistence.core#_S9P9duItEeijf8i-hs27Ow"/>
-  </modelReuses>
-  <modelReuses xmi:id="_TszLEOItEeijf8i-hs27Ow">
-    <compositions xsi:type="ram:Instantiation" xmi:id="_TszLEeItEeijf8i-hs27Ow">
-      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDoLp_EeiBEfOlEucTtg"/>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_TszLEuItEeijf8i-hs27Ow" to="_rPvVwL0yEei4VOCAXwKjCQ">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDorp_EeiBEfOlEucTtg"/>
-      </mappings>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_TszLE-ItEeijf8i-hs27Ow" to="_sQCtELp9EeiBEfOlEucTtg">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDpLp_EeiBEfOlEucTtg"/>
-        <operationMappings xmi:id="_TszyIOItEeijf8i-hs27Ow" to="_Ts21cOItEeijf8i-hs27Ow">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDpbp_EeiBEfOlEucTtg"/>
-        </operationMappings>
-        <operationMappings xmi:id="_TszyIeItEeijf8i-hs27Ow" to="_Ts5RsOItEeijf8i-hs27Ow">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_pUIDprp_EeiBEfOlEucTtg"/>
-        </operationMappings>
-      </mappings>
-    </compositions>
-    <reuse href="BankWithPersistence.core#_TszyIuItEeijf8i-hs27Ow"/>
-  </modelReuses>
-  <modelReuses xmi:id="_8l90kOI7Eei0bPPDzB5Ylw">
-    <compositions xsi:type="ram:Instantiation" xmi:id="_8l90keI7Eei0bPPDzB5Ylw">
-      <source xsi:type="ram:Aspect" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1BrU0OIcEeifRrBAPqLTIQ"/>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="__OxC0OI7Eei0bPPDzB5Ylw" to="_mbGBALp_EeiBEfOlEucTtg">
-        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1B-PxuIcEeifRrBAPqLTIQ"/>
-      </mappings>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_BPlrEOI8Eei0bPPDzB5Ylw" to="_sQCtELp9EeiBEfOlEucTtg">
-        <from xsi:type="ram:Class" href="Reused_Persistence/Woven_Persistence_Configuration_IssueHandler_Persistence.ram#_1B-PxuIcEeifRrBAPqLTIQ"/>
-      </mappings>
-    </compositions>
-    <reuse href="BankWithPersistence.core#_8l-boOI7Eei0bPPDzB5Ylw"/>
+    <reuse href="BankWithPersistence.core#_5NaisACrEemCZsMI3V3q4A"/>
   </modelReuses>
   <realizes href="BankWithPersistence.core#_rDCucbp9EeiBEfOlEucTtg"/>
   <coreConcern href="BankWithPersistence.core#_rDCHYLp9EeiBEfOlEucTtg"/>
@@ -481,12 +442,7 @@
         <parameters xmi:id="_pULuAbp_EeiBEfOlEucTtg" name="newObject" type="_mbGBALp_EeiBEfOlEucTtg"/>
       </operations>
       <operations xmi:id="_2fTEkLtoEeiQXJgRkRZe7A" name="toString" visibility="public" returnType="_r7ojV7p9EeiBEfOlEucTtg"/>
-      <operations xmi:id="_Ts21cOItEeijf8i-hs27Ow" name="getMyPersistenceManager" extendedVisibility="package" returnType="_rPvVwL0yEei4VOCAXwKjCQ"/>
-      <operations xmi:id="_Ts5RsOItEeijf8i-hs27Ow" name="setMyPersistenceManager" extendedVisibility="package" returnType="_r7ojVLp9EeiBEfOlEucTtg">
-        <parameters xmi:id="_Ts5RseItEeijf8i-hs27Ow" name="newObject" type="_rPvVwL0yEei4VOCAXwKjCQ"/>
-      </operations>
       <associationEnds xmi:id="_pRSyELp_EeiBEfOlEucTtg" name="owner" lowerBound="1" assoc="_pRTZILp_EeiBEfOlEucTtg" featureSelection="_pUJRwLp_EeiBEfOlEucTtg"/>
-      <associationEnds xmi:id="_TsfpEOItEeijf8i-hs27Ow" name="myPersistenceManager" lowerBound="1" assoc="_TsgQIOItEeijf8i-hs27Ow" featureSelection="_TszLEOItEeijf8i-hs27Ow"/>
       <attributes xmi:id="_ueI8ULp9EeiBEfOlEucTtg" name="balanceInCents" type="_r7ojVbp9EeiBEfOlEucTtg"/>
       <attributes xmi:id="_YfBu4LtoEeiQXJgRkRZe7A" name="accountNumber" type="_r7ojVbp9EeiBEfOlEucTtg"/>
     </classes>
@@ -499,12 +455,7 @@
       </operations>
       <operations xmi:id="_DggRELtpEeiQXJgRkRZe7A" name="getName" visibility="public" returnType="_r7ojV7p9EeiBEfOlEucTtg"/>
       <operations xmi:id="_PYX28LtpEeiQXJgRkRZe7A" name="toString" visibility="public" returnType="_r7ojV7p9EeiBEfOlEucTtg"/>
-      <operations xmi:id="_S9em8OItEeijf8i-hs27Ow" name="getMyPersistenceManager" extendedVisibility="package" returnType="_rPvVwL0yEei4VOCAXwKjCQ"/>
-      <operations xmi:id="_S9iRUOItEeijf8i-hs27Ow" name="setMyPersistenceManager" extendedVisibility="package" returnType="_r7ojVLp9EeiBEfOlEucTtg">
-        <parameters xmi:id="_S9iRUeItEeijf8i-hs27Ow" name="newObject" type="_rPvVwL0yEei4VOCAXwKjCQ"/>
-      </operations>
       <associationEnds xmi:id="_pRSyEbp_EeiBEfOlEucTtg" name="myAccount" lowerBound="1" navigable="false" assoc="_pRTZILp_EeiBEfOlEucTtg"/>
-      <associationEnds xmi:id="_S81twOItEeijf8i-hs27Ow" name="myPersistenceManager" lowerBound="1" assoc="_S82U0eItEeijf8i-hs27Ow" featureSelection="_S9P9cOItEeijf8i-hs27Ow"/>
       <attributes xmi:id="_oXGasLp_EeiBEfOlEucTtg" name="name" type="_r7ojV7p9EeiBEfOlEucTtg"/>
     </classes>
     <classes xsi:type="ram:Class" xmi:id="_z8MOgLp_EeiBEfOlEucTtg" name="BankWithPersistence" visibility="public" superTypes="_pv8yMLtqEei9XavQa5OSvg _vU6PkLtqEei9XavQa5OSvg">
@@ -866,15 +817,10 @@
       <operations xmi:id="_5dvIgL0REeiuha-UdeUxLQ" name="beep" visibility="public" returnType="_r7ojUrp9EeiBEfOlEucTtg"/>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_aR1bQL0TEeiuha-UdeUxLQ" name="NumberFormatException" instanceClassName="java.lang.NumberFormatException"/>
-    <classes xsi:type="ram:Class" xmi:id="_rPvVwL0yEei4VOCAXwKjCQ" name="PersistenceManager" visibility="public">
-      <operations xmi:id="_t4zpwL0yEei4VOCAXwKjCQ" name="save" visibility="public" returnType="_r7ojUrp9EeiBEfOlEucTtg" static="true">
-        <parameters xmi:id="_t4zpwb0yEei4VOCAXwKjCQ" name="account" type="_sQCtELp9EeiBEfOlEucTtg"/>
+    <classes xsi:type="ram:Class" xmi:id="_rPvVwL0yEei4VOCAXwKjCQ" name="Logger" visibility="public">
+      <operations xmi:id="_t4zpwL0yEei4VOCAXwKjCQ" name="log" visibility="public" returnType="_r7ojUrp9EeiBEfOlEucTtg" static="true">
+        <parameters xmi:id="_t4zpwb0yEei4VOCAXwKjCQ" name="message" type="_r7ojV7p9EeiBEfOlEucTtg"/>
       </operations>
-      <operations xmi:id="_6DU2gOIsEeijf8i-hs27Ow" name="load" visibility="public" returnType="_r7ojUrp9EeiBEfOlEucTtg">
-        <parameters xmi:id="_6DU2geIsEeijf8i-hs27Ow" name="account" type="_sQCtELp9EeiBEfOlEucTtg"/>
-      </operations>
-      <associationEnds xmi:id="_S82U0OItEeijf8i-hs27Ow" name="myCustomer" lowerBound="1" navigable="false" assoc="_S82U0eItEeijf8i-hs27Ow"/>
-      <associationEnds xmi:id="_TsfpEeItEeijf8i-hs27Ow" name="myAccount" lowerBound="1" navigable="false" assoc="_TsgQIOItEeijf8i-hs27Ow"/>
     </classes>
     <associations xmi:id="_pRTZILp_EeiBEfOlEucTtg" name="Account_Customer" ends="_pRSyELp_EeiBEfOlEucTtg _pRSyEbp_EeiBEfOlEucTtg"/>
     <associations xmi:id="_Xc600btsEei9XavQa5OSvg" name="BankWithPersistence_DefaultListModel" ends="_Xc6NwLtsEei9XavQa5OSvg _Xc600LtsEei9XavQa5OSvg"/>
@@ -899,8 +845,6 @@
     <associations xmi:id="_OwKfIL0kEeiuha-UdeUxLQ" name="AccountActionListener_JButton" ends="_OwIp8L0kEeiuha-UdeUxLQ _OwJ4EL0kEeiuha-UdeUxLQ"/>
     <associations xmi:id="_Zl0vML0mEeiuha-UdeUxLQ" name="AccountActionListener_JPanel" ends="_ZlyS8L0mEeiuha-UdeUxLQ _ZlzhEL0mEeiuha-UdeUxLQ"/>
     <associations xmi:id="_xwAbQL0mEeiuha-UdeUxLQ" name="AccountListener_JList" ends="_xv9_AL0mEeiuha-UdeUxLQ _xv_NIL0mEeiuha-UdeUxLQ"/>
-    <associations xmi:id="_S82U0eItEeijf8i-hs27Ow" name="Customer_PersistenceManager" ends="_S81twOItEeijf8i-hs27Ow _S82U0OItEeijf8i-hs27Ow"/>
-    <associations xmi:id="_TsgQIOItEeijf8i-hs27Ow" name="Account_PersistenceManager" ends="_TsfpEOItEeijf8i-hs27Ow _TsfpEeItEeijf8i-hs27Ow"/>
     <types xsi:type="ram:RVoid" xmi:id="_r7ojUrp9EeiBEfOlEucTtg"/>
     <types xsi:type="ram:RAny" xmi:id="_r7ojU7p9EeiBEfOlEucTtg"/>
     <types xsi:type="ram:RBoolean" xmi:id="_r7ojVLp9EeiBEfOlEucTtg"/>
@@ -2173,7 +2117,7 @@
         <value xmi:id="_-iUxobp9EeiBEfOlEucTtg" x="637.4492" y="241.99998"/>
       </value>
       <value xmi:id="_mbHPILp_EeiBEfOlEucTtg" key="_mbGBALp_EeiBEfOlEucTtg">
-        <value xmi:id="_mbHPIbp_EeiBEfOlEucTtg" x="-636.9926" y="96.0"/>
+        <value xmi:id="_mbHPIbp_EeiBEfOlEucTtg" x="-432.07043" y="96.0"/>
       </value>
       <value xmi:id="_z8ODsLp_EeiBEfOlEucTtg" key="_z8MOgLp_EeiBEfOlEucTtg">
         <value xmi:id="_z8ODsbp_EeiBEfOlEucTtg" x="2840.2002" y="862.34076"/>
@@ -2275,7 +2219,7 @@
         <value xmi:id="_aR4ekb0TEeiuha-UdeUxLQ" x="-149.43094" y="550.14453"/>
       </value>
       <value xmi:id="_rPxyAL0yEei4VOCAXwKjCQ" key="_rPvVwL0yEei4VOCAXwKjCQ">
-        <value xmi:id="_rPxyAb0yEei4VOCAXwKjCQ" x="-263.2536" y="375.58344"/>
+        <value xmi:id="_rPxyAb0yEei4VOCAXwKjCQ" x="859.5688" y="722.14484"/>
       </value>
     </containers>
     <containers xmi:id="_1VXS0Lp9EeiBEfOlEucTtg" key="_1VX54Lp9EeiBEfOlEucTtg">
