@@ -134,6 +134,30 @@
       <formalGates xmi:id="_TZl1XACkEemDkaPhyWCSAw" message="_TZl1WQCkEemDkaPhyWCSAw" name="out_reset"/>
     </specification>
   </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_jTATIwCmEemTJMdZD0CkxA" specifies="_G6uBMAChEemDkaPhyWCSAw">
+    <specification xmi:id="_jTATJACmEemTJMdZD0CkxA">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_jTATJQCmEemTJMdZD0CkxA" covered="_jTATJwCmEemTJMdZD0CkxA" message="_jTATKACmEemTJMdZD0CkxA"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_ktPcgACmEemTJMdZD0CkxA" covered="_jTATJwCmEemTJMdZD0CkxA" message="_ktQqoACmEemTJMdZD0CkxA"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_ktPcgQCmEemTJMdZD0CkxA" covered="_jTATJwCmEemTJMdZD0CkxA" message="_ktQqoACmEemTJMdZD0CkxA"/>
+      <fragments xsi:type="ram:CombinedFragment" xmi:id="_lSHEIACmEemTJMdZD0CkxA" covered="_jTATJwCmEemTJMdZD0CkxA _qwZ40ACmEemTJMdZD0CkxA" interactionOperator="opt">
+        <operands xmi:id="_lSHEIQCmEemTJMdZD0CkxA">
+          <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_qwc8IgCmEemTJMdZD0CkxA" covered="_jTATJwCmEemTJMdZD0CkxA" message="_qwc8JACmEemTJMdZD0CkxA"/>
+          <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_qwc8IwCmEemTJMdZD0CkxA" covered="_qwZ40ACmEemTJMdZD0CkxA" message="_qwc8JACmEemTJMdZD0CkxA"/>
+          <interactionConstraint xsi:type="ram:OpaqueExpression" xmi:id="_lSHEIgCmEemTJMdZD0CkxA" body="parent != null" language="java"/>
+        </operands>
+      </fragments>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_jTATJgCmEemTJMdZD0CkxA" covered="_jTATJwCmEemTJMdZD0CkxA" message="_jTATKQCmEemTJMdZD0CkxA"/>
+      <lifelines xmi:id="_jTATJwCmEemTJMdZD0CkxA" represents="_jTATKgCmEemTJMdZD0CkxA" coveredBy="_jTATJQCmEemTJMdZD0CkxA _jTATJgCmEemTJMdZD0CkxA _ktPcgACmEemTJMdZD0CkxA _ktPcgQCmEemTJMdZD0CkxA _lSHEIACmEemTJMdZD0CkxA _qwc8IgCmEemTJMdZD0CkxA"/>
+      <lifelines xmi:id="_qwZ40ACmEemTJMdZD0CkxA" represents="_gf7WQACgEemDkaPhyWCSAw" coveredBy="_lSHEIACmEemTJMdZD0CkxA _qwc8IwCmEemTJMdZD0CkxA"/>
+      <messages xmi:id="_jTATKACmEemTJMdZD0CkxA" sendEvent="_jTATKwCmEemTJMdZD0CkxA" receiveEvent="_jTATJQCmEemTJMdZD0CkxA" signature="_G6uBMAChEemDkaPhyWCSAw"/>
+      <messages xmi:id="_jTATKQCmEemTJMdZD0CkxA" sendEvent="_jTATJgCmEemTJMdZD0CkxA" receiveEvent="_jTATLACmEemTJMdZD0CkxA" signature="_G6uBMAChEemDkaPhyWCSAw" messageSort="reply"/>
+      <messages xmi:id="_ktQqoACmEemTJMdZD0CkxA" sendEvent="_ktPcgACmEemTJMdZD0CkxA" receiveEvent="_ktPcgQCmEemTJMdZD0CkxA" signature="__6_2AACgEemDkaPhyWCSAw"/>
+      <messages xmi:id="_qwc8JACmEemTJMdZD0CkxA" sendEvent="_qwc8IgCmEemTJMdZD0CkxA" receiveEvent="_qwc8IwCmEemTJMdZD0CkxA" signature="__6_2AACgEemDkaPhyWCSAw"/>
+      <properties xmi:id="_jTATKgCmEemTJMdZD0CkxA" name="target" lowerBound="1" type="_B4sjsACfEem8F5_IofC1rA"/>
+      <formalGates xmi:id="_jTATKwCmEemTJMdZD0CkxA" message="_jTATKACmEemTJMdZD0CkxA" name="in_saveAndParent"/>
+      <formalGates xmi:id="_jTATLACmEemTJMdZD0CkxA" message="_jTATKQCmEemTJMdZD0CkxA" name="out_saveAndParent"/>
+    </specification>
+  </messageViews>
   <instantiations xmi:id="_JHkTQAChEemDkaPhyWCSAw">
     <source xsi:type="ram:Aspect" href="Configuration.ram#_UWYJ4NxWEeiuwMvwYzZkEA"/>
     <mappings xsi:type="ram:ClassifierMapping" xmi:id="_KMpsAAChEemDkaPhyWCSAw" to="_JSsiAACdEem8F5_IofC1rA">
@@ -168,6 +192,14 @@
     <containers xmi:id="_TZl1UACkEemDkaPhyWCSAw" key="_TZl1UwCkEemDkaPhyWCSAw">
       <value xmi:id="_TZl1UQCkEemDkaPhyWCSAw" key="_TZl1VwCkEemDkaPhyWCSAw">
         <value xmi:id="_TZl1UgCkEemDkaPhyWCSAw" x="100.0" y="100.0"/>
+      </value>
+    </containers>
+    <containers xmi:id="_jTATIACmEemTJMdZD0CkxA" key="_jTATIwCmEemTJMdZD0CkxA">
+      <value xmi:id="_jTATIQCmEemTJMdZD0CkxA" key="_jTATJwCmEemTJMdZD0CkxA">
+        <value xmi:id="_jTATIgCmEemTJMdZD0CkxA" x="100.0" y="100.0"/>
+      </value>
+      <value xmi:id="_qwc8IACmEemTJMdZD0CkxA" key="_qwZ40ACmEemTJMdZD0CkxA">
+        <value xmi:id="_qwc8IQCmEemTJMdZD0CkxA" x="368.0" y="100.0"/>
       </value>
     </containers>
   </layout>
