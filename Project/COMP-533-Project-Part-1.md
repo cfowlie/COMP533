@@ -15,6 +15,11 @@ The concern we have chosen is persistence. This allows for accurate and effectiv
 - Migrations
 	- Between Data Types
 
+#Design Choices
+- ManagedObjectContext: The context for saving objects. The main context is managed by the PersitenceManager. Any background contexts are children of the main context.
+- ManagedObjects: Objects that we want to write to the database must conform to the ManagedObject protocol which we did not define (out of scope).
+- Migration and Callbacks: No need for state as it will be handled by the ManagedObjectContext.
+
 #The Impacts
 - Warning / Error output will allow the user to create specific errors arising during the persistence process along with a specific error message. Warnings/ Error output yields a high contribution value as it will give the user insight into reasons for why certain errors arise, leading to a simplified debugging process, with no drawbacks.
 
