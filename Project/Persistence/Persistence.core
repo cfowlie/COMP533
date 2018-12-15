@@ -4,6 +4,7 @@
   <models xsi:type="ram:Aspect" href="Persistence.ram#__fHckNxUEeiuwMvwYzZkEA"/>
   <models xsi:type="ram:Aspect" href="Configuration.ram#_UWYJ4NxWEeiuwMvwYzZkEA"/>
   <models xsi:type="ram:Aspect" href="IssueHandler.ram#_PRxLENxXEeiuwMvwYzZkEA"/>
+  <models xsi:type="core:COREImpactModel" href="#_J3d6oACrEemAgpt8xdPbYQ"/>
   <featureModel xmi:id="_1Zd3sNxTEeiuwMvwYzZkEA" coreConcern="_1ZdQoNxTEeiuwMvwYzZkEA" root="_1Zd3sdxTEeiuwMvwYzZkEA">
     <features xmi:id="_1Zd3sdxTEeiuwMvwYzZkEA" name="Persistence" children="_36m-wNxTEeiuwMvwYzZkEA _Eqd8kNxUEeiuwMvwYzZkEA _HIXiYNxUEeiuwMvwYzZkEA _AFpwwNxYEeiL2KNAFr2t2Q">
       <realizedBy xsi:type="ram:Aspect" href="Persistence.ram#__fHckNxUEeiuwMvwYzZkEA"/>
@@ -45,4 +46,91 @@
       <realizedBy xsi:type="ram:Aspect" href="IssueHandler.ram#_PRxLENxXEeiuwMvwYzZkEA"/>
     </features>
   </featureModel>
+  <impactModel xmi:id="_J3d6oACrEemAgpt8xdPbYQ" name="Impact Model" coreConcern="_1ZdQoNxTEeiuwMvwYzZkEA">
+    <impactModelElements xmi:id="_MKrTYACrEemAgpt8xdPbYQ" name="Increased compatibility with other software platform" scalingFactor="10.0" incoming="_1EqkoACrEemAgpt8xdPbYQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_NP1koACrEemAgpt8xdPbYQ" name="Callback" scalingFactor="1.0" outgoing="_HT3gAACsEemAgpt8xdPbYQ" represents="_Eqd8kNxUEeiuwMvwYzZkEA"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_NZsEMACrEemAgpt8xdPbYQ" name="Configuration" scalingFactor="1.0" outgoing="_K3pv0ACsEemAgpt8xdPbYQ _Px7RcACsEemAgpt8xdPbYQ _ZHiggACtEemlcP8SXwDTmg _aItCkACtEemlcP8SXwDTmg" represents="_36m-wNxTEeiuwMvwYzZkEA"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_NjOasACrEemAgpt8xdPbYQ" name="Issue" scalingFactor="1.0" outgoing="_Ef1SIACsEemAgpt8xdPbYQ" represents="_AFpwwNxYEeiL2KNAFr2t2Q"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_NtE6QACrEemAgpt8xdPbYQ" name="Migration" scalingFactor="1.0" outgoing="_1EqkoACrEemAgpt8xdPbYQ _5UNuQACrEemAgpt8xdPbYQ _9ibbIACrEemAgpt8xdPbYQ" represents="_HIXiYNxUEeiuwMvwYzZkEA"/>
+    <impactModelElements xmi:id="_VOonMACrEemAgpt8xdPbYQ" name="Increased flexibility of persistence" scalingFactor="12.5" offset="-75.0" incoming="_9ibbIACrEemAgpt8xdPbYQ _Px7RcACsEemAgpt8xdPbYQ"/>
+    <impactModelElements xmi:id="_XjGkMACrEemAgpt8xdPbYQ" name="Increased performance efficiency" scalingFactor="25.0" offset="-150.0" incoming="_5UNuQACrEemAgpt8xdPbYQ _K3pv0ACsEemAgpt8xdPbYQ"/>
+    <impactModelElements xmi:id="_fIH00ACrEemAgpt8xdPbYQ" name="Simple debugging process" scalingFactor="1.0" offset="90.0" incoming="_Ef1SIACsEemAgpt8xdPbYQ"/>
+    <impactModelElements xmi:id="_hB4LwACrEemAgpt8xdPbYQ" name="Increased reusability of methods" scalingFactor="20.0" incoming="_HT3gAACsEemAgpt8xdPbYQ"/>
+    <impactModelElements xmi:id="_qwgXwACsEemAgpt8xdPbYQ" name="Optimized for large databases (SQLite)" scalingFactor="1.0" offset="95.0" incoming="_ZHiggACtEemlcP8SXwDTmg"/>
+    <impactModelElements xmi:id="_rBNtQACsEemAgpt8xdPbYQ" name="Optimized for small databases (XML)" scalingFactor="1.0" offset="95.0" incoming="_aItCkACtEemlcP8SXwDTmg"/>
+    <impactModelElements xmi:id="_Ek9NQACtEemlcP8SXwDTmg" name="UnnamedGoal3"/>
+    <layouts xmi:id="_MKrTYQCrEemAgpt8xdPbYQ" key="_MKrTYACrEemAgpt8xdPbYQ">
+      <value xmi:id="_MKrTYgCrEemAgpt8xdPbYQ" key="_MKrTYACrEemAgpt8xdPbYQ">
+        <value xmi:id="_MKrTYwCrEemAgpt8xdPbYQ" x="1094.72" y="550.89404"/>
+      </value>
+      <value xmi:id="_NP1koQCrEemAgpt8xdPbYQ" key="_NP1koACrEemAgpt8xdPbYQ">
+        <value xmi:id="_NP1kogCrEemAgpt8xdPbYQ" x="1011.6655" y="1115.5914"/>
+      </value>
+      <value xmi:id="_NZsEMQCrEemAgpt8xdPbYQ" key="_NZsEMACrEemAgpt8xdPbYQ">
+        <value xmi:id="_NZsEMgCrEemAgpt8xdPbYQ" x="1837.0917" y="751.47284"/>
+      </value>
+      <value xmi:id="_NjOasQCrEemAgpt8xdPbYQ" key="_NjOasACrEemAgpt8xdPbYQ">
+        <value xmi:id="_NjOasgCrEemAgpt8xdPbYQ" x="794.12823" y="955.1323"/>
+      </value>
+      <value xmi:id="_NtE6QQCrEemAgpt8xdPbYQ" key="_NtE6QACrEemAgpt8xdPbYQ">
+        <value xmi:id="_NtE6QgCrEemAgpt8xdPbYQ" x="969.2504" y="927.0436"/>
+      </value>
+      <value xmi:id="_VOonMQCrEemAgpt8xdPbYQ" key="_VOonMACrEemAgpt8xdPbYQ">
+        <value xmi:id="_VOonMgCrEemAgpt8xdPbYQ" x="1566.1471" y="609.35657"/>
+      </value>
+      <value xmi:id="_XjGkMQCrEemAgpt8xdPbYQ" key="_XjGkMACrEemAgpt8xdPbYQ">
+        <value xmi:id="_XjGkMgCrEemAgpt8xdPbYQ" x="1528.062" y="905.6679"/>
+      </value>
+      <value xmi:id="_fIH00QCrEemAgpt8xdPbYQ" key="_fIH00ACrEemAgpt8xdPbYQ">
+        <value xmi:id="_fIH00gCrEemAgpt8xdPbYQ" x="555.92725" y="734.98846"/>
+      </value>
+      <value xmi:id="_hB4LwQCrEemAgpt8xdPbYQ" key="_hB4LwACrEemAgpt8xdPbYQ">
+        <value xmi:id="_hB4LwgCrEemAgpt8xdPbYQ" x="1027.5498" y="1342.8904"/>
+      </value>
+      <value xmi:id="_qwgXwQCsEemAgpt8xdPbYQ" key="_qwgXwACsEemAgpt8xdPbYQ">
+        <value xmi:id="_qwgXwgCsEemAgpt8xdPbYQ" x="2204.5" y="642.9995"/>
+      </value>
+      <value xmi:id="_rBNtQQCsEemAgpt8xdPbYQ" key="_rBNtQACsEemAgpt8xdPbYQ">
+        <value xmi:id="_rBNtQgCsEemAgpt8xdPbYQ" x="2181.5005" y="902.9995"/>
+      </value>
+    </layouts>
+    <layouts xmi:id="_Ek9NQQCtEemlcP8SXwDTmg" key="_Ek9NQACtEemlcP8SXwDTmg">
+      <value xmi:id="_Ek9NQgCtEemlcP8SXwDTmg" key="_Ek9NQACtEemlcP8SXwDTmg">
+        <value xmi:id="_Ek9NQwCtEemlcP8SXwDTmg" x="1368.0" y="50.0"/>
+      </value>
+    </layouts>
+    <layouts xmi:id="_IK-RsACtEemlcP8SXwDTmg" key="_rBNtQACsEemAgpt8xdPbYQ">
+      <value xmi:id="_IK-RsQCtEemlcP8SXwDTmg" key="_rBNtQACsEemAgpt8xdPbYQ">
+        <value xmi:id="_IK-RsgCtEemlcP8SXwDTmg" x="1368.0" y="50.0"/>
+      </value>
+    </layouts>
+    <layouts xmi:id="_It28UACtEemlcP8SXwDTmg" key="_fIH00ACrEemAgpt8xdPbYQ">
+      <value xmi:id="_It28UQCtEemlcP8SXwDTmg" key="_fIH00ACrEemAgpt8xdPbYQ">
+        <value xmi:id="_It28UgCtEemlcP8SXwDTmg" x="1368.0" y="50.0"/>
+      </value>
+      <value xmi:id="_IuAtUACtEemlcP8SXwDTmg" key="_NjOasACrEemAgpt8xdPbYQ">
+        <value xmi:id="_IuAtUQCtEemlcP8SXwDTmg" x="1484.0" y="150.0"/>
+      </value>
+    </layouts>
+    <layouts xmi:id="_KVMtkACtEemlcP8SXwDTmg" key="_VOonMACrEemAgpt8xdPbYQ">
+      <value xmi:id="_KVMtkQCtEemlcP8SXwDTmg" key="_VOonMACrEemAgpt8xdPbYQ">
+        <value xmi:id="_KVMtkgCtEemlcP8SXwDTmg" x="1368.0" y="50.0"/>
+      </value>
+      <value xmi:id="_KVWekACtEemlcP8SXwDTmg" key="_NtE6QACrEemAgpt8xdPbYQ">
+        <value xmi:id="_KVWekQCtEemlcP8SXwDTmg" x="1434.25" y="150.0"/>
+      </value>
+      <value xmi:id="_KVWekgCtEemlcP8SXwDTmg" key="_NZsEMACrEemAgpt8xdPbYQ">
+        <value xmi:id="_KVWekwCtEemlcP8SXwDTmg" x="1589.75" y="150.0"/>
+      </value>
+    </layouts>
+    <contributions xmi:id="_1EqkoACrEemAgpt8xdPbYQ" relativeWeight="10" source="_NtE6QACrEemAgpt8xdPbYQ" impacts="_MKrTYACrEemAgpt8xdPbYQ"/>
+    <contributions xmi:id="_5UNuQACrEemAgpt8xdPbYQ" relativeWeight="4" source="_NtE6QACrEemAgpt8xdPbYQ" impacts="_XjGkMACrEemAgpt8xdPbYQ"/>
+    <contributions xmi:id="_9ibbIACrEemAgpt8xdPbYQ" relativeWeight="8" source="_NtE6QACrEemAgpt8xdPbYQ" impacts="_VOonMACrEemAgpt8xdPbYQ"/>
+    <contributions xmi:id="_Ef1SIACsEemAgpt8xdPbYQ" relativeWeight="10" source="_NjOasACrEemAgpt8xdPbYQ" impacts="_fIH00ACrEemAgpt8xdPbYQ"/>
+    <contributions xmi:id="_HT3gAACsEemAgpt8xdPbYQ" relativeWeight="5" source="_NP1koACrEemAgpt8xdPbYQ" impacts="_hB4LwACrEemAgpt8xdPbYQ"/>
+    <contributions xmi:id="_K3pv0ACsEemAgpt8xdPbYQ" relativeWeight="6" source="_NZsEMACrEemAgpt8xdPbYQ" impacts="_XjGkMACrEemAgpt8xdPbYQ"/>
+    <contributions xmi:id="_Px7RcACsEemAgpt8xdPbYQ" relativeWeight="6" source="_NZsEMACrEemAgpt8xdPbYQ" impacts="_VOonMACrEemAgpt8xdPbYQ"/>
+    <contributions xmi:id="_ZHiggACtEemlcP8SXwDTmg" relativeWeight="5" source="_NZsEMACrEemAgpt8xdPbYQ" impacts="_qwgXwACsEemAgpt8xdPbYQ"/>
+    <contributions xmi:id="_aItCkACtEemlcP8SXwDTmg" relativeWeight="5" source="_NZsEMACrEemAgpt8xdPbYQ" impacts="_rBNtQACsEemAgpt8xdPbYQ"/>
+  </impactModel>
 </core:COREConcern>
